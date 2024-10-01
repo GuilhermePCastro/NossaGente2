@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NossaGente</title>
+
+        <!-- Bootstrap -->
+        <link href="resources/styles/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+        <!-- CSS projeto -->
+        <link href="resources\styles\header.css" rel="stylesheet">
+        <link href="resources\styles\index.css" rel="stylesheet">
+        <link href="resources\styles\cards1.css" rel="stylesheet">
+        <link href="resources\styles\cards2.css" rel="stylesheet">
+        <link href="resources\styles\cartaoNossagente.css" rel="stylesheet">
+        <link href="resources\styles\creditoMao.css" rel="stylesheet">
+        <link href="resources\styles\cuidamosGente.css" rel="stylesheet">
+        <link href="resources\styles\ondeEstamos.css" rel="stylesheet">
+        <link href="resources\styles\carroselCards2.css" rel="stylesheet">
+        <link href="resources\styles\formulario.css" rel="stylesheet">
+        <link href="resources\styles\footer.css" rel="stylesheet">
+
+        <!-- Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header> 
+           
+            <!-- Menu -->
+            <nav class="navbar navbar-expand-xl py-4">
+                <div class="container-fluid">
+                    <div class="cont-logo">
+                        <a class="navbar-brand" href="#">
+                          <img src="resources\images\logoPrincipal.png" alt="Logo" class="d-inline-block logo ms-4">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0  text-center">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Página Inicial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#CreditoMao">Quem Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#CuidamosGente">Benefícios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#cartao">O Cartão</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#formulario">Crendeciamento</a>
+                            </li>
+                            <li class="nav-item ms-xl-5 ms-0">
+                                <a class="btn btn-fale-gente px-4 text-uppercase" href="#">Fale com a gente!</a>
+                                <a class="btn btn-area-parceiro px-4 text-uppercase" href="#">área do parceiro</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Carrosel data-bs-ride="carousel" -->
+            <section id="carroselPrincipal" class="carousel slide carrosel-tamanho"  >
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="container slide-cont">
+                        <div class="row">
+                            <div class="col-lg-5 col-12">
+                                <h2 class=" titulo-slide-1">
+                                    <span class="d-block">Cartão</span>
+                                    <span class="d-block">nossagente.</span> 
+                                </h2>
+                                <p class="mt-4 texto-slide-1">
+                                    <span class="d-block">Seja para emergências ou para realizar seus</span>
+                                    <span class="d-block">sonhos, o <span class="fw-bolder">cartão nossagente</span> é perfeito para você! </span>
+                                </p>
+                                <div class="mt-4 cont-img-slide cont-slide-mobile">
+                                    <img alt="slide1" class="img-slide-mobile" src="./resources/images/slide1.png">
+                                </div>
+                                <a class="btn btn-slide mt-5 text-uppercase px-0 py-2">
+                                    <div class="container-fluid">
+                                        <div class="row p-0 me-0 justify-content-between">
+                                            <span class="col-10 p-0 ms-2">Saber Mais </span>
+                                            <img class="img-btn-seta col-2 p-0" src="resources/images/btn-seta.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 col-12 pe-2 text-end cont-img-slide">
+                                <img alt="slide1" class="img-slide" src="./resources/images/slide1.png">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="container slide-cont">
+                        <div class="row">
+                            <div class="col-lg-5 col-12">
+                                <h2 class=" titulo-slide-1">
+                                    <span class="d-block"></span>Estamos aqui</span>
+                                    <span class="d-block">para ajudar!</span> 
+                                </h2>
+                                <p class="mt-4 texto-slide-1">
+                                    <span class="d-block">Porque cada sonho merece a chance de se tornar realidade. </span>
+                                    <span class="d-block">Conheça nossos produtos e descubra como podemos</span>
+                                    <span class="d-block">ajudá-lo a conquistar o seu!</span>
+                                </p>
+                                <div class="mt-4 cont-img-slide cont-slide-mobile">
+                                    <img alt="slide2" class="img-slide-mobile" src="./resources/images/slide2.png">
+                                </div>
+                                <a class="btn btn-slide mt-5 text-uppercase px-0 py-2">
+                                    <div class="container-fluid">
+                                        <div class="row p-0 me-0 justify-content-between">
+                                            <span class="col-10 p-0 ms-2">Saber Mais </span>
+                                            <img class="img-btn-seta col-2 p-0 text-end" src="resources/images/btn-seta.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 col-12 text-end cont-img-slide">
+                                <img alt="slide2" class="img-slide" src="./resources/images/slide2.png">
+                            </div>
+
+                        </div>
+                    </div>                    
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="container slide-cont">
+                        <div class="row">
+                            <div class="col-lg-5 col-12">
+                                <h2 class=" titulo-slide-3">
+                                    CORBAN, venha ser um correspondente bancário Nossagente.
+                                </h2>
+                                <div class="mt-4 cont-img-slide cont-slide-mobile">
+                                    <img alt="slide3" class="img-slide-mobile" src="./resources/images/slide3.png">
+                                </div>
+                                <a class="btn btn-slide mt-5 text-uppercase px-0 py-2">
+                                    <div class="container-fluid">
+                                        <div class="row p-0 me-0 justify-content-between">
+                                            <span class="col-10 p-0 ms-2">Fale com agente </span>
+                                            <img class="img-btn-seta col-2 p-0 text-end" src="resources/images/btn-seta.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-7 col-12 text-end cont-img-slide">
+                                <img alt="slide3" class="img-slide" src="./resources/images/slide3.png">
+                            </div>
+
+                        </div>
+                    </div>                    
+                  </div>
+                </div>
+
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carroselPrincipal" data-bs-slide="next" >
+                  <span class="carousel-control-next-icon slide-next" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+            </section>
+        </header>
+
+        <main>
+
+            <!-- Crédito na mão -->
+            <section id="CreditoMao" class="backgroud1">
+                <div class="container-fluid container-credito-mao">
+                    <div class="row">
+                        <div class="col-lg-5 col-12 cont-img-credito-mao text-lg-start text-center">
+                            <img alt="creditomao" class="img-credito-mao" src="./resources/images/creditoMao.png">
+                        </div>
+                        <div class="col-lg-7 col-12 ps-lg-0 cont-texto-credito-mao">
+                            <h2 class=" titulo-credito-mao">
+                                <span class="d-block text-lg-end text-start">Crédito na mão, rápido e sem enrolação!</span>
+                            </h2>
+                            <p class="mt-4 texto-credito-mao text-lg-end text-start">
+                                <span class="d-block">O Cartão nossagente é para servidores</span>
+                                <span class="d-block">públicos municipais e estaduais oferece</span>
+                                <span class="d-block">uma solução financeira prática e vantajosa.</span>
+                            </p>
+                            <div class="text-lg-end text-start">
+                                <a class="btn btn-padrao btn-credito-mao mt-5 text-uppercase px-0 py-2">
+                                    <div class="container fluid">
+                                        <div class="row p-0 me-0 justify-content-between" >
+                                            <span class="col-10 p-0 ms-2 me-0">Fazer simulação</span>
+                                            <img class="img-btn-seta col-2 p-0 text-end" src="resources/images/btn-seta.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="linhaAmarela"></div>
+
+            <!-- Cards 1 -->
+            <section id="cards1" class="cards1-background background2">
+                <h2 class="titulo-cards1 text-center py-5 text-uppercase container">Alivie o orçamento com um dinheiro que já é seu!</h2>
+                <div class="container">
+                    <div class="row justify-content-lg-evenly justify-content-center">
+                        <div class="col-lg-3 col-5 ">
+                            <div class="card-cont">
+                                <h3 class="subtitulo-cards1 ">
+                                    <span class="d-block">Condições</span>
+                                    <span class="d-block">Especiais</span>
+                                </h3>
+                                <p class="text-cards1">
+                                    Aproveite taxas acessíveis e fuja dos juros altos de outros tipos de crédito.  
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-5">
+                            <div class="card-cont">
+                                <h3 class="subtitulo-cards1">
+                                    <span class="d-block">Tranquilidade</span>
+                                    <span class="d-block">garantida</span>
+                                </h3>
+                                <p class="text-cards1">
+                                    O valor é depositado de forma segura e direto na sua conta
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-5 mt-lg-0 mt-2">
+                            <div class="card-cont">
+                                <h3 class="subtitulo-cards1">
+                                    <span class="d-block">Simples e sem</span>
+                                    <span class="d-block">complicações</span>
+                                </h3>
+                                <p class="text-cards1">
+                                    Sem consulta ao SPC ou Serasa, sem necessidade de garantias ou taxas extras.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-5 mt-lg-0 mt-2">
+                            <div class="card-cont">
+                                <h3 class="subtitulo-cards1">Praticidade</h3>
+                                <p class="text-cards1">
+                                    Desconto direto na sua folha de pagamento, sem preocupações.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container mt-5">
+                    <div class="row ">
+                        <div class="col-lg-11 col-12 text-center">
+                            <img class="seta-cards1" src="./resources/images/setaBaixoAmarela.png" alt="setaParaBaixo">
+                        </div>
+                        <div class="col-lg-1 col-12 text-end">
+                            <img src="./resources/images/logoBranca.png" alt="logoBranca">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="linhaAmarela"></div>
+
+            <!-- Cuidamos da nossa gente -->
+            <section id="CuidamosGente" class=" backgroud1">
+                <div class="container-fluid container-cuidamos-gente" >
+                    <div class="row ms-lg-5 ">
+                        <div class="col-lg-4 col-12 pb-3">
+                            <h2 class="titulo-cuidamos-gente text-lg-start text-center">
+                                <span class="d-block">Cuidamos da</span>
+                                <span class="d-block">nossa gente!</span>
+                            </h2>
+
+                            <div>
+                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#telemedicina" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <div class="container-fluid ">
+                                        <div class="row p-0 me-0 justify-content-between">
+                                            <span class="col-11 ">telemedicina familiar</span>
+                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="collapse" id="telemedicina">
+                                    <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#descontoConsulta" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <div class="container-fluid">
+                                        <div class="row p-0 me-0 justify-content-between">
+                                            <span class="col-11 ">Desconto em consultas</span>
+                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="collapse" id="descontoConsulta">
+                                    <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#descontoExame" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <div class="container-fluid">
+                                        <div class="row p-0 me-0 justify-content-between">
+                                            <span class="col-11 ">desconto em exames</span>
+                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="collapse" id="descontoExame">
+                                    <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#descontoFarmacia" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <div class="container-fluid">
+                                        <div class="row p-0 me-0 justify-content-between">
+                                            <span class="col-11 ">desconto em farmárcias</span>
+                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="collapse" id="descontoFarmacia">
+                                    <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#assisValidez" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <div class="container-fluid">
+                                        <div class="row p-0 me-0 justify-content-between">
+                                            <span class="col-11 ">assistência invalidez</span>
+                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="collapse" id="assisValidez">
+                                    <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#assisfuneral" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <div class="container-fluid">
+                                        <div class="row p-0 me-0 justify-content-between">
+                                            <span class="col-11 ">assistência funeral</span>
+                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="collapse" id="assisfuneral">
+                                    <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#sorteio" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <div class="container-fluid">
+                                        <div class="row p-0 me-0 justify-content-between">
+                                            <span class="col-11 ">Sorteio 20 mil reais</span>
+                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="collapse" id="sorteio">
+                                    <div class="card card-body">
+                                        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-8 col-12 text-end cont-img-cuidamos-gente pe-0">
+                            <img alt="cuidamosDaNossaGente" class="img-cuidamos-gente " src="./resources/images/cuidamosVoce.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="linhaAmarela"></div>
+
+            <!-- Cards 2 -->
+            <section id="cards2" class="cards1-background pt-lg-2 pb-lg-2">
+                <div class="container py-5">
+                    <div class="row py-5">
+                        <div class="col-lg-5 col-12">
+                            <h2 class="titulo-cards-2 text-lg-start text-center">Cuidamos da nossa gente!</h2>
+                        </div>
+                        <div class="col-lg-7 col-12 mt-lg-0 mt-3">
+                            <div id="carrosselCards2" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+
+                                    <div class="carousel-item active" data-bs-interval="6000">
+                                        <div class="container-fluid">
+                                            <div class="row justify-content-around">
+                                                <div class="col-5 card2-cont">
+                                                    <div class="cont-img-cards2">
+                                                        <img src="./resources/images/temp6.png" class="img-cards2" alt="">
+                                                    </div>
+                                                    <h3 class="subtitulo-cards2 my-2">Praticidade</h3>
+                                                    <p class="text-cards1">
+                                                        Desconto direto na sua folha de pagamento, sem preocupações.
+                                                    </p>
+                                                </div>
+                                                <div class="col-5 card2-cont">
+                                                    <div class="cont-img-cards2">
+                                                        <img src="./resources/images/temp6.png" class="img-cards2" alt="">
+                                                    </div>
+                                                    <h3 class="subtitulo-cards2 my-2">Praticidade</h3>
+                                                    <p class="text-cards1">
+                                                        Sem consulta ao SPC ou Serasa, sem necessidade de garantias ou taxas extras.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item" data-bs-interval="6000">
+                                        <div class="container-fluid">
+                                            <div class="row justify-content-around">
+                                                <div class="col-5 card2-cont">
+                                                    <div class="cont-img-cards2">
+                                                        <img src="./resources/images/temp6.png" class="img-cards2" alt="">
+                                                    </div>
+                                                    <h3 class="subtitulo-cards2 my-2">Praticidade</h3>
+                                                    <p class="text-cards1">
+                                                        Desconto direto na sua folha de pagamento, sem preocupações.
+                                                    </p>
+                                                </div>
+                                                <div class="col-5 card2-cont">
+                                                    <div class="cont-img-cards2">
+                                                        <img src="./resources/images/temp6.png" class="img-cards2" alt="">
+                                                    </div>
+                                                    <h3 class="subtitulo-cards2 my-2">Praticidade</h3>
+                                                    <p class="text-cards1 pb-1">
+                                                        Sem consulta ao SPC ou Serasa, sem necessidade de garantias ou taxas extras.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item" data-bs-interval="6000">
+                                        <div class="container-fluid">
+                                            <div class="row justify-content-around">
+                                                <div class="col-5 card2-cont">
+                                                    <div class="cont-img-cards2">
+                                                        <img src="./resources/images/temp6.png" class="img-cards2" alt="">
+                                                    </div>
+                                                    <h3 class="subtitulo-cards2 my-2">Praticidade</h3>
+                                                    <p class="text-cards1">
+                                                        Desconto direto na sua folha de pagamento, sem preocupações.
+                                                    </p>
+                                                </div>
+                                                <div class="col-5 card2-cont">
+                                                    <div class="cont-img-cards2">
+                                                        <img src="./resources/images/temp6.png" class="img-cards2" alt="">
+                                                    </div>
+                                                    <h3 class="subtitulo-cards2 my-2">Praticidade</h3>
+                                                    <p class="text-cards1">
+                                                        Sem consulta ao SPC ou Serasa, sem necessidade de garantias ou taxas extras.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carrosselCards2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carrosselCards2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="linhaAmarela"></div>
+
+            <!-- Cartão Nossagente-->
+            <section id="cartao" class="backgroud1">
+                <div class="container-fluid container-cartao-nossagente">
+                    <div class="row">
+                        <div class="col-lg-6 col-12 cont-img-cartao-nossagente">
+                            <img alt="cartaoNossagente" class="img-cartao-nossagente" src="./resources/images/cartao.png">
+                        </div>
+                        <div class="col-lg-6 col-12 ">
+                            <h2 class=" titulo-cartao-nossagente text-center">
+                                <span class="d-block text-center">O cartão</span>
+                                <span class="d-block text-center">nossagente.</span>
+                            </h2>
+                            <p class="mt-4 texto-cartao-nossagente">
+                                Foi desenvolvido como parte de um programa inicialmente destinado a atender os servidores públicos, <span class="fw-bold">oferecendo crédito para cobrir as despesas cotidianas.</span>
+                            </p>
+                            <p class="mt-4 texto-cartao-nossagente">
+                                Além disso, ele proporciona uma variedade de <span class="fw-bold">benefícios</span> aos seus usuários por <span class="fw-bold">meio de um cartão de benefícios</span>
+        
+                            </p>
+                            <div class="text-center">
+                                <a class="btn btn-padrao btn-credito-mao mt-5 text-uppercase px-0 py-2">
+                                    <div class="container-fluid">
+                                        <div class="row p-0 me-0 justify-content-between">
+                                            <span class="col-10 p-0 ms-2 me-0">FALE COM A GENTE</span>
+                                            <img class="img-btn-seta col-2 p-0 text-end" src="resources/images/btn-seta.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-end logo-cartao-nossagente">
+                                <img src="./resources/images/logoPrincipal.png" alt="logo">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- Onde Estamos-->
+            <section class="backgroud1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <h2 class="titulo-onde-estamos text-lg-start text-center">
+                                <span class="d-block">Onde</span>
+                                <span class="d-block">estamos!</span>
+                            </h2>
+                            <div class="mt-4 cont-img-onde-estamos cont-onde-estamos-mobile">
+                                <img alt="slide1" class="img-onde-estamos-mobile" src="./resources/images/mapa.png">
+                            </div>
+                            <h3 class="subtitulo-onde-estamos text-lg-start text-center">
+                                <span class="d-block">+600 postos</span>
+                                <span class="d-block">de trabalho envolvidos</span>
+                            </h2>
+                            <h3 class="subtitulo-onde-estamos text-lg-start text-center">
+                                <span class="d-block">+250k mil servidores atingidos</span>
+                            </h2>
+                            <div class="text-lg-start text-center">
+                                <a class="btn btn-padrao btn-credito-mao mt-5 text-uppercase px-0 py-2 mb-lg-0 mb-5 ">
+                                    <div class="container-fluid">
+                                        <div class="row p-0 me-0 justify-content-between">
+                                            <span class="col-10 p-0 ms-2 me-0">Fazer simulação</span>
+                                            <img class="img-btn-seta col-2 p-0 text-end" src="resources/images/btn-seta.png" alt="btn-seta">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        
+                        </div>
+                        <div class="col-lg-6 col-12 cont-img-onde-estamos">
+                            <img alt="Onde Estamos" class="img-onde-estamos" src="./resources/images/mapa.png">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- formulário -->
+            <section class="bg-formulario" id="formulario">
+
+                <!-- Img Formulario-->
+                <article class="px-5">
+                    <div class="container-fluid bg-formulario-2">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-7 col-12 ms-lg-5 ms-0 py-5">
+                                <h2 class="titulo-formulario1">
+                                    CORBAN, venha ser um correspondente bancário Nossagente.
+                                </h2>
+                                <div class="col-lg-4 col-12 text-end cont-img-formulario-mobile pe-0">
+                                    <img alt="imagem-form" class="img-formulario-mobile" src="./resources/images/temp8.png">
+                                </div>
+                                <a class="btn btn-formulario px-2 mt-5 mb-3 text-uppercase" href="#">Fale com a gente!</a>
+                            </div>
+                            <div class="col-lg-4 col-12 text-end cont-img-formulario pe-0">
+                                <img alt="imagem-form" class="img-formulario" src="./resources/images/temp8.png">
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Formulario-->
+                <article>
+                    <div class="container py-5 mt-5">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-5 col-12">
+                                <h3 class="texto-formulario1">
+                                    O <span class="fw-bold">nossagente</span> tem tudo a ver com você!
+                                </h3>
+                                <div class="mt-5">
+                                    <p class="texto-formulario2">Gostou do que viu? </p>
+                                    <p class="texto-formulario2">Entre em contato preenchendo o formulário ao lado. </p>
+                                    <p class="texto-formulario2">Vamos conversar e encontrar a melhor solução para você!</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-12">
+                                <form>
+                                    <div class="col-auto mt-1">
+                                      <label for="nomeCompleto" class="label-form">Nome completo</label>
+                                      <input type="text" class="form-control input-form" id="nomeCompleto" placeholder="Victoria" required>
+                                    </div>
+                                    <div class="col-auto mt-1">
+                                        <label for="cpfCnpj" class="label-form">CPF/CNPJ</label>
+                                        <input type="text" class="form-control input-form" id="cpfCnpj" placeholder="XXX.XXX.XXX-XX" required>
+                                    </div>
+                                    <div class="col-auto mt-1">
+                                        <label for="dtNascimento" class="label-form">Data de Nascimento</label>
+                                        <input type="data" class="form-control input-form" id="dtNascimento" placeholder="00/00/0000" required>
+                                    </div>
+                                    <div class="col-automt-1">
+                                        <label for="celular" class="label-form">Celular</label>
+                                        <input type="text" class="form-control input-form" id="celular"  placeholder="(00) 00000-0000" maxlength="15" pattern="\(\d{2}\)\s*\d{5}-\d{4}" required>
+                                    </div>
+                                    <div class="col-automt-1">
+                                        <label for="email" class="label-form">E-mail</label>
+                                        <input type="email" class="form-control input-form" id="email" placeholder="email@email.com" required>
+                                    </div>
+                                    <div class="col-auto form-check mt-3">
+                                        <input class="form-check-input" type="checkbox" value="" id="autorizacao" required>
+                                        <label class="form-check-label" for="autorizacao">
+                                            Autorizo o cadastro dos meus dados para que um consultor da Nossagente entre em contato comigo.
+                                        </label>
+                                    </div>
+                                    <div class="col-auto mt-4">
+                                      <button type="submit" class="btn btn-formulario-envio mb-3  w-100">Enviar Dados</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <div class="linhaAmarela"></div>
+
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-lg-3 col-12 mb-lg-0 mb-5">
+                        <div class="text-lg-start text-center">
+                            <img src="./resources/images/logoPrincipal.png" alt="logo" >
+                        </div>
+                        <div class="d-flex justify-content-evenly">
+                            <a href="#">
+                                <img src="./resources/icons/Vector.png" alt="facebook">
+                            </a>
+                            <a href="#">
+                                <img src="./resources/icons/youtube.png" alt="facebook">
+                            </a>
+                            <a href="#">
+                                <img src="./resources/icons/linkedin.png" alt="facebook">
+                            </a>
+                            <a href="#">
+                                <img src="./resources/icons/instagram.png" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-5">
+                        <h4 class="titulo-lista">Menu Principal</h4>
+                        <ul class="lista-links">
+                            <li><a class="link-footer" href="#">Página inicial</a></li>
+                            <li><a class="link-footer" href="#CreditoMao">Quem somos</a></li>
+                            <li><a class="link-footer" href="#CuidamosGente">Benefícios</a></li>
+                            <li><a class="link-footer" href="#cartao">O cartão</a></li>
+                            <li><a class="link-footer" href="#formulario">Credenciado</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-5">
+                        <h4 class="titulo-lista">Fale com a gente</h4>
+                        <ul class="lista-links">
+                            <li><a class="link-footer">0800 591 8800</a></li>
+                            <li><a class="link-footer sac">sac@nossagentecard.com.br</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row text-center my-5">
+                    <h5 class="assinatura">© Copyright Nossagente - Desenvolvido por <a class="assinatura" href="https://github.com/GuilhermePCastro">@GuilhermePCastro</a></h5>
+                </div>
+            </div>
+        </footer>
+        <script src="./resources/scripts/bootstrap/bootstrap.min.js"></script>
+        <script src="./resources/scripts/formulario.js"></script>
+    </body>
+</html>

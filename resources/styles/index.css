@@ -1,0 +1,54 @@
+:root {
+    --main-color: #006300;
+    --second-color: #DFDF00;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Inter", sans-serif !important;
+    overflow-x: hidden;
+    background-color: #f6f6f6;;
+}
+
+.backgroud1{
+    background-image: url('./../images/BACKGROUND.png') !important;
+    background-size: cover !important;
+}
+
+.backgroud2{
+    background-image: url('./../images/BACKGROUND2.png') !important;
+    background-size: cover !important;
+}
+.btn-padrao{
+    border-radius: 25px;
+    background-color: var(--main-color);
+    color: white;
+    font-family: "Rubik", sans-serif !important;
+    font-size: 16px;
+    font-weight: 400 !important;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    width: 45%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.btn-padrao:hover{
+    background-color: #049104;
+    color: #fff;
+
+}
+
+
+.linhaAmarela{
+    width: 100%;
+    height: 14px;
+    background: linear-gradient(90deg, #DFDF00 0%, #797900 100%);
+}
+
+

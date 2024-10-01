@@ -1,0 +1,64 @@
+.cards1-background{
+    background-image: url('./../images/BACKGROUND2.png') !important;
+    background-size: cover !important;
+    padding-bottom: 1%;
+}
+
+.titulo-cards1{
+    color: var(--second-color);
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subtitulo-cards1{
+    color: var(--second-color);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.text-cards1{
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    
+}
+
+.card-cont{
+    border-color:  var(--second-color);
+    border-style: solid;
+    border-width: 1px;
+    padding: 10% 10% 0 5%;
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+    height: 100%;
+    width: 100% !important;
+}
+
+.seta-cards1{
+    margin-left: 9%;
+}
+
+@media screen and (max-width: 1024px) {
+
+
+    /* Cards1 */
+    .seta-cards1{
+        margin-left:0;
+    }
+
+    .titulo-cards1{
+        font-size: 22px;
+    }
+
+
+    
+}
