@@ -14,12 +14,12 @@ body, html {
 }
 
 .backgroud1{
-    background-image: url('./../images/BACKGROUND.png') !important;
+    background-image: url('./../images/BACKGROUND.webp') !important;
     background-size: cover !important;
 }
 
 .backgroud2{
-    background-image: url('./../images/BACKGROUND2.png') !important;
+    background-image: url('./../images/BACKGROUND2.webp') !important;
     background-size: cover !important;
 }
 .btn-padrao{
