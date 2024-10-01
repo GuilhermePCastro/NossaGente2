@@ -9,7 +9,8 @@ body, html {
     margin: 0;
     font-family: "Inter", sans-serif !important;
     overflow-x: hidden;
-    background-color: #f6f6f6;;
+    background-color: #f6f6f6;
+    scroll-behavior: smooth;
 }
 
 .backgroud1{
