@@ -13,6 +13,11 @@ body, html {
     scroll-behavior: smooth;
 }
 
+main{
+    background-image: url('./../images/BACKGROUND.webp') !important;
+    background-size: cover !important; 
+}
+
 .backgroud1{
     background-image: url('./../images/BACKGROUND.webp') !important;
     background-size: cover !important;
@@ -51,5 +56,14 @@ body, html {
     height: 14px;
     background: linear-gradient(90deg, #DFDF00 0%, #797900 100%);
 }
+
+@media screen and (max-width: 1024px) {
+    
+    main{
+        margin-top: 35%;
+    }
+    
+}
+
 
 

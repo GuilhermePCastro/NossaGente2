@@ -172,7 +172,10 @@ header{
 
 @media screen and (max-width: 1024px) {
 
-    
+    .carrosel-tamanho{
+        height: 100vh;
+    }
+
     .nav-item{
         margin-left: 0;
         margin-right: 0;
