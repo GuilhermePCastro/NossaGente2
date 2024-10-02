@@ -11,7 +11,7 @@
 
 .bg-formulario-2{
     background-image: url('./../images/imgFormulario.webp');
-    background-size: cover !important;
+    background-size: contain !important;
     background-position: center;
     background-repeat: no-repeat; 
     width: 100%;
