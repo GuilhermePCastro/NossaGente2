@@ -24,10 +24,14 @@
 
 .cont-img-cartao-nossagente{
     height: 100vh !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-cartao-nossagente{
-    object-fit: contain;
+    width: 100%;
     height: 100%;
 }
 
@@ -41,13 +45,30 @@
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 996px) and (max-width: 1024px) {
+    
+    .cont-img-cartao-nossagente{
+        width: 100% !important;
+        padding-right: 0 !important;
+        text-align: center !important;
+    }
+    
+    .img-cartao-nossagente{
+        width: 100%;
+        height: 100%;
+    }
+    
+
+}
+
+@media screen and (max-width: 996px) {
     
     .cont-img-cartao-nossagente{
         overflow: hidden;
-        height: 60vh !important;
+        height: 70vh !important;
         width: 100vw !important;
-        margin-right: 0 !important;
+        padding-right: 0 !important;
+        text-align: center !important;
     }
     
     .img-cartao-nossagente{

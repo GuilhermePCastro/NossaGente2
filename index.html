@@ -29,13 +29,13 @@
         
     </head>
     <body>
-        <header> 
+        <header id="inicio"> 
            
             <!-- Menu -->
             <nav class="navbar navbar-expand-xl py-4">
                 <div class="container-fluid">
                     <div class="cont-logo">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="#inicio">
                           <img src="resources\images\logoPrincipal.webp" alt="Logo" class="d-inline-block logo ms-4">
                         </a>
                     </div>
@@ -43,9 +43,9 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse " id="navbarNav">
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0  text-center">
+                        <ul class="navbar-nav mx-auto mb-2 mb-xl-0 ">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Página Inicial</a>
+                                <a class="nav-link" aria-current="page" href="#inicio">Página Inicial</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#CreditoMao">Quem Somos</a>
@@ -57,10 +57,12 @@
                                 <a class="nav-link" href="#cartao">O Cartão</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#formulario">Crendeciamento</a>
+                                <a class="nav-link" href="#formulario">Credenciamento</a>
                             </li>
                             <li class="nav-item ms-xl-5 ms-0">
                                 <a class="btn btn-fale-gente px-4 text-uppercase" href="#">Fale com a gente!</a>
+                            </li>
+                            <li class="nav-item ms-xl-2 ms-0 mt-xl-0 mt-2">
                                 <a class="btn btn-area-parceiro px-4 text-uppercase" href="#">área do parceiro</a>
                             </li>
                         </ul>
@@ -68,14 +70,14 @@
                 </div>
             </nav>
 
-            <!-- Carrosel data-bs-ride="carousel" -->
-            <section id="carroselPrincipal" class="carousel slide carrosel-tamanho"  >
+            <!-- Carrosel  -->
+            <section id="carroselPrincipal" class="carousel slide carrosel-tamanho"  data-bs-ride="carousel">
 
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="container slide-cont">
                         <div class="row">
-                            <div class="col-lg-5 col-12">
+                            <div class="col-xl-5 col-12">
                                 <h2 class=" titulo-slide-1">
                                     <span class="d-block">Cartão</span>
                                     <span class="d-block">nossagente.</span> 
@@ -96,8 +98,10 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-7 col-12 pe-2 text-end cont-img-slide">
-                                <img alt="slide1" class="img-slide" src="./resources/images/slide1.webp">
+                        <div class="col-xl-7 col-12 pe-2 text-end ">
+                                <div class="cont-img-slide w-100">
+                                    <img alt="slide1" class="img-slide" src="./resources/images/slide1.webp">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -106,7 +110,7 @@
                   <div class="carousel-item">
                     <div class="container slide-cont">
                         <div class="row">
-                            <div class="col-lg-5 col-12">
+                            <div class="col-xl-5 col-12">
                                 <h2 class=" titulo-slide-1">
                                     <span class="d-block"></span>Estamos aqui</span>
                                     <span class="d-block">para ajudar!</span> 
@@ -128,8 +132,10 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-7 col-12 text-end cont-img-slide">
-                                <img alt="slide2" class="img-slide" src="./resources/images/slide2.webp">
+                            <div class="col-xl-7 col-12 text-end">
+                                <div class="cont-img-slide">
+                                    <img alt="slide2" class="img-slide" src="./resources/images/slide2.webp">
+                                </div>
                             </div>
 
                         </div>
@@ -139,7 +145,7 @@
                   <div class="carousel-item">
                     <div class="container slide-cont">
                         <div class="row">
-                            <div class="col-lg-5 col-12">
+                            <div class="col-xl-5 col-12">
                                 <h2 class=" titulo-slide-3">
                                     CORBAN, venha ser um correspondente bancário Nossagente.
                                 </h2>
@@ -155,8 +161,10 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-7 col-12 text-end cont-img-slide">
-                                <img alt="slide3" class="img-slide" src="./resources/images/slide3.webp">
+                            <div class="col-xl-7 col-12 text-end ">
+                                <div class="cont-img-slide">
+                                    <img alt="slide3" class="img-slide" src="./resources/images/slide3.webp">
+                                </div>
                             </div>
 
                         </div>
@@ -179,19 +187,21 @@
             <section id="CreditoMao" class="backgroud1">
                 <div class="container-fluid container-credito-mao">
                     <div class="row">
-                        <div class="col-lg-5 col-12 cont-img-credito-mao text-lg-start text-center">
-                            <img alt="creditomao" class="img-credito-mao" src="./resources/images/creditoMao.webp">
+                        <div class="col-xl-7 col-12  text-xl-start text-center">
+                            <div class="cont-img-credito-mao">
+                                <img alt="creditomao" class="img-credito-mao" src="./resources/images/creditoMao.webp">
+                            </div>
                         </div>
-                        <div class="col-lg-7 col-12 ps-lg-0 cont-texto-credito-mao">
+                        <div class="col-xl-5 col-12 ps-xl-0 cont-texto-credito-mao">
                             <h2 class=" titulo-credito-mao">
-                                <span class="d-block text-lg-end text-start">Crédito na mão, rápido e sem enrolação!</span>
+                                <span class="d-block text-xl-end text-start">Crédito na mão, rápido e sem enrolação!</span>
                             </h2>
-                            <p class="mt-4 texto-credito-mao text-lg-end text-start">
+                            <p class="mt-4 texto-credito-mao text-xl-end text-start">
                                 <span class="d-block">O Cartão nossagente é para servidores</span>
                                 <span class="d-block">públicos municipais e estaduais oferece</span>
                                 <span class="d-block">uma solução financeira prática e vantajosa.</span>
                             </p>
-                            <div class="text-lg-end text-start">
+                            <div class="text-xl-end text-start">
                                 <a class="btn btn-padrao btn-credito-mao mt-5 text-uppercase px-0 py-2">
                                     <div class="container fluid">
                                         <div class="row p-0 me-0 justify-content-between" >
@@ -212,45 +222,53 @@
             <section id="cards1" class="cards1-background background2">
                 <h2 class="titulo-cards1 text-center py-5 text-uppercase container">Alivie o orçamento com um dinheiro que já é seu!</h2>
                 <div class="container">
-                    <div class="row justify-content-lg-evenly justify-content-center">
-                        <div class="col-lg-3 col-5 ">
-                            <div class="card-cont">
-                                <h3 class="subtitulo-cards1 ">
+                    <div class="row justify-content-xl-evenly justify-content-center">
+                        <div class="col-xl-3 col-8 mx-auto">
+                            <div class="card-cont condEspcial">
+                                <h3 class="subtitulo-cards1 pt-xl-3 pt-0">
                                     <span class="d-block">Condições</span>
                                     <span class="d-block">Especiais</span>
                                 </h3>
                                 <p class="text-cards1">
-                                    Aproveite taxas acessíveis e fuja dos juros altos de outros tipos de crédito.  
+                                    <span class="d-block">taxas acessíveis e fuja</span>
+                                    <span class="d-block">dos juros altos de</span>
+                                    <span class="d-block">outros tipos de crédito.</span> 
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-5">
-                            <div class="card-cont">
-                                <h3 class="subtitulo-cards1">
+                        <div class="col-xl-3 col-8 mx-auto mt-xl-0 mt-1">
+                            <div class="card-cont tranquilidade ">
+                                <h3 class="subtitulo-cards1 pt-xl-3 pt-0">
                                     <span class="d-block">Tranquilidade</span>
                                     <span class="d-block">garantida</span>
                                 </h3>
                                 <p class="text-cards1">
-                                    O valor é depositado de forma segura e direto na sua conta
+                                    <span class="d-block">O valor é depositado</span>
+                                    <span class="d-block">de forma segura e</span>
+                                    <span class="d-block">direto na sua conta</span>
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-5 mt-lg-0 mt-2">
-                            <div class="card-cont">
-                                <h3 class="subtitulo-cards1">
+                        <div class="col-xl-3 col-8 mx-auto mt-xl-0 mt-1">
+                            <div class="card-cont simples">
+                                <h3 class="subtitulo-cards1 pt-xl-3 pt-1">
                                     <span class="d-block">Simples e sem</span>
                                     <span class="d-block">complicações</span>
                                 </h3>
                                 <p class="text-cards1">
-                                    Sem consulta ao SPC ou Serasa, sem necessidade de garantias ou taxas extras.
+                                    <span class="d-block">Sem consulta ao SPC</span>
+                                    <span class="d-block">ou Serasa, sem necessidade</span>
+                                    <span class="d-block">de garantias ou taxas extras.</span>
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-5 mt-lg-0 mt-2">
-                            <div class="card-cont">
-                                <h3 class="subtitulo-cards1">Praticidade</h3>
+                        <div class="col-xl-3 col-8 mx-auto mt-xl-0 mt-1">
+                            <div class="card-cont praticidade">
+                                <h3 class="subtitulo-cards1 pt-xl-3 pt-1 pb-3">Praticidade</h3>
                                 <p class="text-cards1">
-                                    Desconto direto na sua folha de pagamento, sem preocupações.
+                                    <span class="d-block">Desconto direto</span>
+                                    <span class="d-block">na sua folha de pagamento,</span>
+                                    <span class="d-block">sem preocupações.</span>
                                 </p>
                             </div>
                         </div>
@@ -259,10 +277,10 @@
 
                 <div class="container mt-5">
                     <div class="row ">
-                        <div class="col-lg-11 col-12 text-center">
-                            <img class="seta-cards1" src="./resources/images/setaBaixoAmarela.webp" alt="setaParaBaixo">
+                        <div class="col-xl-11 col-12 text-center">
+                            <a href="#CuidamosGente"><img class="seta-cards1" src="./resources/images/setaBaixoAmarela.webp" alt="setaParaBaixo"></a>
                         </div>
-                        <div class="col-lg-1 col-12 text-end">
+                        <div class="col-xl-1 col-12 text-end">
                             <img src="./resources/images/logoBranca.webp" alt="logoBranca">
                         </div>
                     </div>
@@ -274,9 +292,9 @@
             <!-- Cuidamos da nossa gente -->
             <section id="CuidamosGente" class=" backgroud1">
                 <div class="container-fluid container-cuidamos-gente" >
-                    <div class="row ms-lg-5 ">
-                        <div class="col-lg-4 col-12 pb-3">
-                            <h2 class="titulo-cuidamos-gente text-lg-start text-center">
+                    <div class="row ms-xl-5 ">
+                        <div class="col-xl-4 col-12 pb-3">
+                            <h2 class="titulo-cuidamos-gente text-xl-start text-center">
                                 <span class="d-block">Cuidamos da</span>
                                 <span class="d-block">nossa gente!</span>
                             </h2>
@@ -394,8 +412,10 @@
                             </div>
                             
                         </div>
-                        <div class="col-lg-8 col-12 text-end cont-img-cuidamos-gente pe-0">
-                            <img alt="cuidamosDaNossaGente" class="img-cuidamos-gente " src="./resources/images/cuidamosVoce.webp">
+                        <div class="col-xl-8 col-12 text-end  pe-0">
+                            <div class="cont-img-cuidamos-gente">
+                                <img alt="cuidamosDaNossaGente" class="img-cuidamos-gente " src="./resources/images/cuidamosVoce.webp">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -404,104 +424,13 @@
             <div class="linhaAmarela"></div>
 
             <!-- Cards 2 -->
-            <section id="cards2" class="cards1-background pt-lg-2 pb-lg-2">
+            <section id="cards2" class="cards1-background pt-xl-2 pb-xl-2">
                 <div class="container py-5">
                     <div class="row py-5">
-                        <div class="col-lg-5 col-12">
-                            <h2 class="titulo-cards-2 text-lg-start text-center">Cuidamos da nossa gente!</h2>
+                        <div class="col-12 text-center">
+                            <h2 class="titulo-cards-2 text-center">Cuidamos da nossa gente!</h2>
                         </div>
-                        <div class="col-lg-7 col-12 mt-lg-0 mt-3">
-                            <div id="carrosselCards2" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-
-                                    <div class="carousel-item active" data-bs-interval="6000">
-                                        <div class="container-fluid">
-                                            <div class="row justify-content-around">
-                                                <div class="col-5 card2-cont">
-                                                    <div class="cont-img-cards2">
-                                                        <img src="./resources/images/temp6.webp" class="img-cards2" alt="">
-                                                    </div>
-                                                    <h3 class="subtitulo-cards2 my-2">Praticidade</h3>
-                                                    <p class="text-cards1">
-                                                        Desconto direto na sua folha de pagamento, sem preocupações.
-                                                    </p>
-                                                </div>
-                                                <div class="col-5 card2-cont">
-                                                    <div class="cont-img-cards2">
-                                                        <img src="./resources/images/temp6.webp" class="img-cards2" alt="">
-                                                    </div>
-                                                    <h3 class="subtitulo-cards2 my-2">Praticidade</h3>
-                                                    <p class="text-cards1">
-                                                        Sem consulta ao SPC ou Serasa, sem necessidade de garantias ou taxas extras.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item" data-bs-interval="6000">
-                                        <div class="container-fluid">
-                                            <div class="row justify-content-around">
-                                                <div class="col-5 card2-cont">
-                                                    <div class="cont-img-cards2">
-                                                        <img src="./resources/images/temp6.webp" class="img-cards2" alt="">
-                                                    </div>
-                                                    <h3 class="subtitulo-cards2 my-2">Praticidade</h3>
-                                                    <p class="text-cards1">
-                                                        Desconto direto na sua folha de pagamento, sem preocupações.
-                                                    </p>
-                                                </div>
-                                                <div class="col-5 card2-cont">
-                                                    <div class="cont-img-cards2">
-                                                        <img src="./resources/images/temp6.webp" class="img-cards2" alt="">
-                                                    </div>
-                                                    <h3 class="subtitulo-cards2 my-2">Praticidade</h3>
-                                                    <p class="text-cards1 pb-1">
-                                                        Sem consulta ao SPC ou Serasa, sem necessidade de garantias ou taxas extras.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="carousel-item" data-bs-interval="6000">
-                                        <div class="container-fluid">
-                                            <div class="row justify-content-around">
-                                                <div class="col-5 card2-cont">
-                                                    <div class="cont-img-cards2">
-                                                        <img src="./resources/images/temp6.webp" class="img-cards2" alt="">
-                                                    </div>
-                                                    <h3 class="subtitulo-cards2 my-2">Praticidade</h3>
-                                                    <p class="text-cards1">
-                                                        Desconto direto na sua folha de pagamento, sem preocupações.
-                                                    </p>
-                                                </div>
-                                                <div class="col-5 card2-cont">
-                                                    <div class="cont-img-cards2">
-                                                        <img src="./resources/images/temp6.webp" class="img-cards2" alt="">
-                                                    </div>
-                                                    <h3 class="subtitulo-cards2 my-2">Praticidade</h3>
-                                                    <p class="text-cards1">
-                                                        Sem consulta ao SPC ou Serasa, sem necessidade de garantias ou taxas extras.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carrosselCards2" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carrosselCards2" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-
-                              </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>
@@ -512,10 +441,12 @@
             <section id="cartao" class="backgroud1">
                 <div class="container-fluid container-cartao-nossagente">
                     <div class="row">
-                        <div class="col-lg-6 col-12 cont-img-cartao-nossagente">
-                            <img alt="cartaoNossagente" class="img-cartao-nossagente" src="./resources/images/cartao.webp">
+                        <div class="col-xl-6 col-12 ">
+                            <div class="cont-img-cartao-nossagente">
+                                <img alt="cartaoNossagente" class="img-cartao-nossagente" src="./resources/images/cartao.webp">
+                            </div>
                         </div>
-                        <div class="col-lg-6 col-12 ">
+                        <div class="col-xl-6 col-12 ">
                             <h2 class=" titulo-cartao-nossagente text-center">
                                 <span class="d-block text-center">O cartão</span>
                                 <span class="d-block text-center">nossagente.</span>
@@ -550,23 +481,23 @@
             <section class="backgroud1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-12">
-                            <h2 class="titulo-onde-estamos text-lg-start text-center">
+                        <div class="col-xl-6 col-12">
+                            <h2 class="titulo-onde-estamos text-xl-start text-center">
                                 <span class="d-block">Onde</span>
                                 <span class="d-block">estamos!</span>
                             </h2>
                             <div class="mt-4 cont-img-onde-estamos cont-onde-estamos-mobile">
                                 <img alt="slide1" class="img-onde-estamos-mobile" src="./resources/images/mapa.webp">
                             </div>
-                            <h3 class="subtitulo-onde-estamos text-lg-start text-center">
+                            <h3 class="subtitulo-onde-estamos text-xl-start text-center">
                                 <span class="d-block">+600 postos</span>
                                 <span class="d-block">de trabalho envolvidos</span>
                             </h2>
-                            <h3 class="subtitulo-onde-estamos text-lg-start text-center">
+                            <h3 class="subtitulo-onde-estamos text-xl-start text-center">
                                 <span class="d-block">+250k mil servidores atingidos</span>
                             </h2>
-                            <div class="text-lg-start text-center">
-                                <a class="btn btn-padrao btn-credito-mao mt-5 text-uppercase px-0 py-2 mb-lg-0 mb-5 ">
+                            <div class="text-xl-start text-center">
+                                <a class="btn btn-padrao btn-credito-mao mt-5 text-uppercase px-0 py-2 mb-xl-0 mb-5 ">
                                     <div class="container-fluid">
                                         <div class="row p-0 me-0 justify-content-between">
                                             <span class="col-10 p-0 ms-2 me-0">Fazer simulação</span>
@@ -577,7 +508,7 @@
                             </div>
                         
                         </div>
-                        <div class="col-lg-6 col-12 cont-img-onde-estamos">
+                        <div class="col-xl-6 col-12 cont-img-onde-estamos">
                             <img alt="Onde Estamos" class="img-onde-estamos" src="./resources/images/mapa.webp">
                         </div>
                     </div>
@@ -589,21 +520,19 @@
             <section class="bg-formulario" id="formulario">
 
                 <!-- Img Formulario-->
-                <article class="px-5">
+                <article class="pb-5 ">
                     <div class="container-fluid bg-formulario-2">
                         <div class="row justify-content-between">
-                            <div class="col-lg-7 col-12 ms-lg-5 ms-0 py-5">
+                            <div class="col-xl-6 col-12 ms-xl-5 ms-0 py-5">
                                 <h2 class="titulo-formulario1">
                                     CORBAN, venha ser um correspondente bancário Nossagente.
                                 </h2>
-                                <div class="col-lg-4 col-12 text-end cont-img-formulario-mobile pe-0">
+                                <div class="col-xl-4 col-12 text-end cont-img-formulario-mobile pe-0">
                                     <img alt="imagem-form" class="img-formulario-mobile" src="./resources/images/temp8.webp">
                                 </div>
                                 <a class="btn btn-formulario px-2 mt-5 mb-3 text-uppercase" href="#">Fale com a gente!</a>
                             </div>
-                            <div class="col-lg-4 col-12 text-end cont-img-formulario pe-0">
-                                <img alt="imagem-form" class="img-formulario" src="./resources/images/temp4.webp">
-                            </div>
+          
                         </div>
                     </div>
                 </article>
@@ -612,7 +541,7 @@
                 <article>
                     <div class="container py-5 mt-5">
                         <div class="row justify-content-between">
-                            <div class="col-lg-5 col-12">
+                            <div class="col-xl-5 col-12">
                                 <h3 class="texto-formulario1">
                                     O <span class="fw-bold">nossagente</span> tem tudo a ver com você!
                                 </h3>
@@ -622,7 +551,7 @@
                                     <p class="texto-formulario2">Vamos conversar e encontrar a melhor solução para você!</p>
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-12">
+                            <div class="col-xl-5 col-12">
                                 <form>
                                     <div class="col-auto mt-1">
                                       <label for="nomeCompleto" class="label-form">Nome completo</label>
@@ -667,8 +596,8 @@
         <footer>
             <div class="container">
                 <div class="row justify-content-around">
-                    <div class="col-lg-3 col-12 mb-lg-0 mb-5">
-                        <div class="text-lg-start text-center">
+                    <div class="col-xl-3 col-12 mb-xl-0 mb-5">
+                        <div class="text-xl-start text-center">
                             <img src="./resources/images/logoPrincipal.webp" alt="logo" >
                         </div>
                         <div class="d-flex justify-content-evenly">
@@ -686,17 +615,17 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-5">
+                    <div class="col-xl-3 col-5">
                         <h4 class="titulo-lista">Menu Principal</h4>
                         <ul class="lista-links">
-                            <li><a class="link-footer" href="#">Página inicial</a></li>
+                            <li><a class="link-footer" href="#inicio">Página inicial</a></li>
                             <li><a class="link-footer" href="#CreditoMao">Quem somos</a></li>
                             <li><a class="link-footer" href="#CuidamosGente">Benefícios</a></li>
                             <li><a class="link-footer" href="#cartao">O cartão</a></li>
                             <li><a class="link-footer" href="#formulario">Credenciado</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 col-5">
+                    <div class="col-xl-3 col-5">
                         <h4 class="titulo-lista">Fale com a gente</h4>
                         <ul class="lista-links">
                             <li><a class="link-footer">0800 591 8800</a></li>
