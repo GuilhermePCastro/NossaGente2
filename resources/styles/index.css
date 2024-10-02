@@ -57,13 +57,5 @@ main{
     background: linear-gradient(90deg, #DFDF00 0%, #797900 100%);
 }
 
-@media screen and (max-width: 1024px) {
-    
-    main{
-        margin-top: 35%;
-    }
-    
-}
-
 
 
