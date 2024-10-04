@@ -9,20 +9,16 @@
     padding: 5% 5% 0 5%;
 }
 
-.bg-formulario-2{
-    background-image: url('./../images/imgFormulario.webp');
-    background-size: contain !important;
-    background-position: center;
-    background-repeat: no-repeat; 
+.bg-formulario2{
+    background-image: url('./../images/BACKGROUND.webp') !important;
+    background-size: cover !important;
     width: 100%;
     height: 100%;
-    padding-top: 25%;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
-
 }
 
 
@@ -63,11 +59,21 @@
 
 .cont-img-formulario{
     height: 60vh !important;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 
 .img-formulario{
     height: 100%;
     width: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
  
 }
 
@@ -158,7 +164,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
    
     .cont-img-formulario{
         display: none;
@@ -173,7 +179,7 @@
         font-size: 30px;
     }
 
-    .bg-formulario-2{
+    .bg-formulario2{
         display: none;
     }
 

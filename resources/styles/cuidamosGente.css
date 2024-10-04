@@ -1,5 +1,5 @@
 .titulo-cuidamos-gente{
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 900;
     line-height: 68px;
     font-family: "Inter", sans-serif !important;
@@ -14,12 +14,15 @@
 } 
 
 .cont-img-cuidamos-gente{
-
+    height: 100vh !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .img-cuidamos-gente{
     object-fit: contain;
-    width: 100%;
     height: 100%;
 }
 
