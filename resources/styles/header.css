@@ -13,28 +13,28 @@ header{
 }
 
 .nav-link{
-    font-size: 12px !important;
+    font-size: 0.75rem !important;
     text-transform: uppercase !important;
     font-family: "Inter", sans-serif !important;
     font-weight: 800 !important;
-    line-height: 20px !important;
-    letter-spacing: 2px !important;
+    line-height: 1.25rem !important;
+    letter-spacing: 0.125rem !important;
 }
 
 .btn-fale-gente{
-    border-radius: 25px;
+    border-radius: 1.563rem;
     background-color: #fff;
     border-color: var(--main-color);
     color: var(--main-color);
-    border-width: 2px;
+    border-width: 0.125rem;
     font-family: "Rubik", sans-serif !important;
     font-weight: 400 !important;
     line-height: 1.25rem;
     font-size: 0.75rem;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+    -webkit-border-radius: 1.563rem;
+    -moz-border-radius: 1.563rem;
+    -ms-border-radius: 1.563rem;
+    -o-border-radius: 1.563rem;
     cursor: pointer;
 }
 
