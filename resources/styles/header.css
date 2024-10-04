@@ -205,11 +205,12 @@ header{
     .cont-slide-mobile{
         display: block;
         overflow: hidden;
-        height: 45vh !important;
+        height: 50vh !important;
         width: 100% !important;
     }
 
     .img-slide-mobile{
+        object-fit: contain;
         width: 100%;
         height: 100%;
     }
@@ -228,7 +229,8 @@ header{
 
     
     .titulo-slide-3{
-        font-size: 2.188rem;
+        font-size: 2.188rem !important;
+        margin-top: 5% !important;
     }
 
     

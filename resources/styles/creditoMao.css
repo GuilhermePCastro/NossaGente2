@@ -40,6 +40,10 @@
     padding-right: 5%;
 }
 
+.cont-img-credito-mao-mobile{
+    display: none;
+}
+
 
 @media screen and (max-width: 1024px) {
     
@@ -57,6 +61,7 @@
         width: 100% !important;
         padding-right: 0 !important;
         text-align: center !important;
+        display: none;
     }
 
     .img-credito-mao{
@@ -74,6 +79,7 @@
     .titulo-credito-mao{
         margin-top: 0 !important;
         font-size: 2.813rem;
+        
     }
 
     .container-credito-mao{
@@ -81,6 +87,20 @@
         padding-right: 0;
     }
     
+    .cont-img-credito-mao-mobile{
+        display: block;
+        overflow: hidden;
+        height: 50vh;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .img-credito-mao-mobile{
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+
     
 
 }

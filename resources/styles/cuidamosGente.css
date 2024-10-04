@@ -14,11 +14,12 @@
 } 
 
 .cont-img-cuidamos-gente{
-    height: 100vh !important;
+    height: 112vh !important;
     width: 100% !important;
     display: flex;
     justify-content: end;
-    align-items: center;
+    align-items: end;
+
 }
 
 .img-cuidamos-gente{
@@ -26,12 +27,16 @@
     height: 100%;
 }
 
+.cont-img-cuidamos-gente-mobile{
+    display: none;
+}
+
 .container-cuidamos-gente{
     --bs-gutter-x: 0 !important;
     padding-left: 5%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     
     .cont-img-cuidamos-gente{
         display: block;
@@ -42,11 +47,7 @@
         display: none;
     }
     
-    .img-cuidamos-gente{
-        object-fit: contain;
-        width: 100%;
-        height: 100%;
-    }
+    
 
     .container-cuidamos-gente{
         padding-right: 5% !important;
@@ -56,5 +57,22 @@
         font-size: 3.125rem;
     } 
 
+    .cont-img-cuidamos-gente-mobile{
+        overflow: hidden;
+        height: 70vh !important;
+        width: 70vw !important;
+        padding-right: 0 !important;
+        text-align: center !important;
+        display: block;
+        margin: 5% 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-cuidamos-gente-mobile{
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
 
 }
