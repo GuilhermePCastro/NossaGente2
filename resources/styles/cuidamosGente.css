@@ -14,7 +14,7 @@
 } 
 
 .cont-img-cuidamos-gente{
-    height: 112vh !important;
+    height: 100% !important;
     width: 100% !important;
     display: flex;
     justify-content: end;
@@ -24,7 +24,7 @@
 
 .img-cuidamos-gente{
     object-fit: contain;
-    height: 100%;
+    height: 105vh;
 }
 
 .cont-img-cuidamos-gente-mobile{
