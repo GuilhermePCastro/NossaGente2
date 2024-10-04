@@ -58,8 +58,16 @@ main{
 }
 
 
+@media screen and (max-width: 1200px) {
+    
+    main{
+        margin-top: 12% ;
+    }
 
-@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 550px) {
     
     main{
         margin-top: 18% ;
@@ -67,4 +75,14 @@ main{
 
 
 }
+
+@media screen and (max-width: 400px) {
+    
+    main{
+        margin-top: 25% ;
+    }
+
+
+}
+
 

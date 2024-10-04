@@ -49,7 +49,7 @@
     display: none;
 }
 
-@media screen and (min-width: 996px) and (max-width: 1024px) {
+@media screen and (min-width: 996px) and (max-width: 1200px) {
     
     .cont-img-cartao-nossagente{
         width: 100% !important;

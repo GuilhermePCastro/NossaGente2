@@ -170,7 +170,7 @@ header{
     opacity: 60%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
 
     .carrosel-tamanho{
         height: 95vh;

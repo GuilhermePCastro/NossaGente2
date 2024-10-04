@@ -59,13 +59,14 @@
 
     .cont-img-cuidamos-gente-mobile{
         overflow: hidden;
-        height: 70vh !important;
+        height: 40vh !important;
         width: 70vw !important;
         padding-right: 0 !important;
         text-align: center !important;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 5%;
     }
 
     .img-cuidamos-gente-mobile{

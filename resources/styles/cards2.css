@@ -6,7 +6,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
 
     .titulo-cards-2{
         font-size: 3.125rem;
