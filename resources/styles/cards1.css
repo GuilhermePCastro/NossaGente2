@@ -8,24 +8,24 @@
 .titulo-cards1{
     color: var(--second-color);
     font-weight: 800;
-    font-size: 23px;
-    line-height: 28px;
-    letter-spacing: -1px;
+    font-size: 1.438rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.063rem;
     font-family: "Montserrat", sans-serif;
 }
 
 .subtitulo-cards1{
     color: var(--second-color);
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 1.2rem;
+    line-height: 1.3752rem;
 }
 
 .text-cards1{
     font-family: "Montserrat", sans-serif;
     color: #FFFFFF;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
     font-weight: 400;
     
 }
@@ -85,7 +85,7 @@
     }
 
     .titulo-cards1{
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
 

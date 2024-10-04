@@ -23,9 +23,9 @@
 
 
 .titulo-formulario1{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 3.125rem;
     font-family: "Poppins", sans-serif;
     background: rgb(0,18,27);
     background: linear-gradient(111deg, rgba(0,18,27,1) 0%, rgba(0,31,33,1) 13%, rgba(0,57,35,1) 31%, rgba(0,69,30,1) 47%, rgba(0,70,39,1) 60%, rgba(0,96,0,1) 74%, rgba(0,136,0,1) 85%);
@@ -42,8 +42,8 @@
     color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 500 !important;
-    line-height: 25px;
-    font-size: 16px;
+    line-height: 1.563rem;
+    font-size: 1rem;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -58,7 +58,11 @@
 }
 
 .cont-img-formulario{
-    height: 60vh !important;
+    height: 50vh !important;
+  
+    display: flex;
+    justify-content: end;
+    align-items: end;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -67,8 +71,8 @@
 }
 
 .img-formulario{
+    object-fit: contain;
     height: 100%;
-    width: 100%;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -84,23 +88,23 @@
 .texto-formulario1{
     font-family: "Montserrat", sans-serif;
     color: #fff;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
     font-weight: 200;
 }
 
 .texto-formulario2{
     color: #fff;
     font-weight: 200;
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
 }
 
 .label-form{
     font-family: "Montserrat", sans-serif;
     color: #fff;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
     font-weight: 900;
 }
 
@@ -128,8 +132,8 @@
 .form-check-label{
     color: #fff;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    line-height: 28px;
+    font-size: 0.938rem;
+    line-height: 1.75rem;
     font-weight: 200;
     cursor: pointer;
 }
@@ -147,8 +151,8 @@
     border-style: solid;
     font-family: "Poppins", sans-serif;
     font-weight: 500 !important;
-    line-height: 25px;
-    font-size: 16px;
+    line-height: 1.563rem;
+    font-size: 1rem;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -176,7 +180,7 @@
     }
 
     .titulo-formulario1{
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .bg-formulario2{

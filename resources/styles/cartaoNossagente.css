@@ -1,7 +1,7 @@
 .titulo-cartao-nossagente{
-    font-size: 55px;
+    font-size: 3.438rem;
     font-weight: 900;
-    line-height: 57px;
+    line-height: 3.563rem;
     font-family: "Montserrat", sans-serif;
     margin-top: 10% !important;
     background: rgb(0,18,27);
@@ -15,9 +15,9 @@
 
 .texto-cartao-nossagente{
     color: var(--main-color) !important;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
-    line-height: 33px;
+    line-height: 2.063rem;
     font-family: "Montserrat", sans-serif;
     text-align: center;
 }
@@ -82,7 +82,7 @@
 
     .titulo-cartao-nossagente{
         margin-top: 5% !important;
-        font-size: 45px;
+        font-size: 2.813rem;
 
     }
 

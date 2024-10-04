@@ -1,7 +1,7 @@
 .titulo-onde-estamos{
-    font-size: 65px;
+    font-size: 4.063rem;
     font-weight: 900;
-    line-height: 67px;
+    line-height: 4.188rem;
     font-family: "Montserrat", sans-serif;
     margin-top: 10% !important;
     background: rgb(0,18,27);
@@ -14,9 +14,9 @@
 }
 
 .subtitulo-onde-estamos{
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 800;
-    line-height: 28px;
+    line-height: 1.75rem;
     font-family: "Montserrat", sans-serif;
     margin-top: 10% !important;
     background: rgb(0,18,27);
@@ -63,7 +63,7 @@
     }
 
     .titulo-onde-estamos{
-        font-size: 55px;
+        font-size: 3.438rem;
     }
 
     

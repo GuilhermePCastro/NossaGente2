@@ -26,8 +26,8 @@
 .subtitulo-cards2{
     color: var(--second-color);
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
     text-transform: uppercase;
     font-weight: 800;
 }

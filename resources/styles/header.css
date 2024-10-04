@@ -29,8 +29,8 @@ header{
     border-width: 2px;
     font-family: "Rubik", sans-serif !important;
     font-weight: 400 !important;
-    line-height: 20px;
-    font-size: 12px;
+    line-height: 1.25rem;
+    font-size: 0.75rem;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
@@ -50,8 +50,8 @@ header{
     color: white;
     font-family: "Rubik", sans-serif !important;
     font-weight: 400 !important;
-    line-height: 20px;
-    font-size: 12px;
+    line-height: 1.25rem;
+    font-size: 0.75rem;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
@@ -70,7 +70,7 @@ header{
     background-color: var(--main-color);
     color: white;
     font-family: "Rubik", sans-serif !important;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400 !important;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
@@ -92,9 +92,9 @@ header{
 }
 
 .titulo-slide-1{
-    font-size: 58px;
+    font-size: 3.625rem;
     font-weight: 800;
-    line-height: 68px;
+    line-height: 4.25rem;
     font-family: "Inter", sans-serif !important;
     margin-top: 20% !important;
     background: rgb(0,18,27);
@@ -107,9 +107,9 @@ header{
 }
 
 .titulo-slide-3{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
-    line-height: 50px;
+    line-height: 3.125rem;
     font-family: "Inter", sans-serif !important;
     margin-top: 20% !important;
     background: rgb(0,18,27);
@@ -123,9 +123,9 @@ header{
 
 .texto-slide-1{
     color: var(--main-color) !important;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 22px;
+    line-height: 1.375rem;
     font-family: "Montserrat", sans-serif;
     
 }
@@ -143,8 +143,8 @@ header{
 }
 
 .img-btn-seta{
-    width: 22px;
-    height: 22px;
+    width: 1.375rem;
+    height: 1.375rem;
 }
 
 .cont-img-slide{
@@ -216,7 +216,7 @@ header{
 
     .titulo-slide-1{
         margin-top: 5% !important;
-        font-size: 50px;
+        font-size: 3.125rem;
  
     }
 
@@ -228,7 +228,7 @@ header{
 
     
     .titulo-slide-3{
-        font-size: 35px;
+        font-size: 2.188rem;
     }
 
     

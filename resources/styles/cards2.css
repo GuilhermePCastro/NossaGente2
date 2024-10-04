@@ -1,15 +1,15 @@
 .titulo-cards-2{
     color: var(--second-color);
     font-weight: 900;
-    font-size: 60px;
-    line-height: 57px;
+    font-size: 3.75rem;
+    line-height: 3.563rem;
     font-family: "Montserrat", sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
 
     .titulo-cards-2{
-        font-size: 50px;
+        font-size: 3.125rem;
     }
     
 }
