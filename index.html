@@ -588,7 +588,7 @@
                                 </div>
                             </div>
                             <div class="col-xl-5 col-12">
-                                <form>
+                                <form  onsubmit="sendEmail()" id="formContato">
                                     <div class="col-auto mt-1">
                                       <label for="nomeCompleto" class="label-form">Nome completo</label>
                                       <input type="text" class="form-control input-form" id="nomeCompleto" placeholder="Victoria" required>
@@ -616,7 +616,8 @@
                                         </label>
                                     </div>
                                     <div class="col-auto mt-4">
-                                      <button type="submit" class="btn btn-formulario-envio mb-3  w-100">Enviar Dados</button>
+                                      <button type="submit" class="btn btn-formulario-envio mb-3 w-100" value="formulario">Enviar Dados</button>
+                                      <a id="teste"></a>
                                     </div>
                                 </form>
                             </div>
