@@ -42,10 +42,9 @@ function sendEmail() {
     let email = document.getElementById('email').value;;
     let termoAceite = document.getElementById('autorizacao').value;
 
-    let corpo = 
-            `Nome Completo: ${nome};%0D%0A%0D%0CPFCNPJ: ${CPF};%0D%0A%0D%0Dt. Nascimento: ${nascimento};%0D%0A%0D%0Celular: ${celular};%0D%0A%0D%0email: ${email};%0D%0A%0D%0Autorizo o cadastro dos meus dados para que um consultor da Nossagente entre em contato comigo.`
-    let teste = document.getElementById('email');   
-    teste.href= 'mailto:sac@nossagentecard.com.br?subject=Formulário%20NossaGente&body=' + corpo
-    teste.click();
+    let corpo = `Nome Completo: ${nome};%0D%0A%0D%0CPFCNPJ: ${CPF};%0D%0A%0D%0Dt. Nascimento: ${nascimento};%0D%0A%0D%0Celular: ${celular};%0D%0A%0D%0email: ${email};%0D%0A%0D%0Autorizo o cadastro dos meus dados para que um consultor da Nossagente entre em contato comigo.`
+    let emailLink = document.getElementById('emailLink');   
+    emailLink.href= 'mailto:sac@nossagentecard.com.br?subject=Formulário%20NossaGente&body=' + corpo
+    emailLink.click();
  
 }
