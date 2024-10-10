@@ -25,15 +25,15 @@ function sendEmail() {
     let termoAceite = document.getElementById('autorizacao').value;
 
     let corpo = 
-            ` Nome Completo: ${nome};%0D
-                CPFCNPJ: ${CPF};
-                Dt. Nascimento: ${nascimento};
-                Celular: ${celular};
-                email: ${email};
+            ` Nome Completo: ${nome};%0D%0A%0D%0
+                CPFCNPJ: ${CPF};%0D%0A%0D%0
+                Dt. Nascimento: ${nascimento};%0D%0A%0D%0
+                Celular: ${celular};%0D%0A%0D%0
+                email: ${email};%0D%0A%0D%0
                 Autorizo o cadastro dos meus dados para que um consultor da Nossagente entre em contato comigo.
             `
     let teste = document.getElementById('teste');   
-    teste.href= 'mailto:guibkk@gmail.com?subject=Formulário%20NossaGente&body=' + corpo
+    teste.href= 'mailto:sac@nossagentecard.com.br?subject=Formulário%20NossaGente&body=' + corpo
     teste.click();
  
 }
