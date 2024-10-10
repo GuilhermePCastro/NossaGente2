@@ -44,7 +44,7 @@ function sendEmail() {
 
     nascimento = nascimento.slice(8,10) + '/' + nascimento.slice(5,7) + '/' + nascimento.slice(0,4);
 
-    let corpo = `Nome Completo: ${nome};%0D%0A%0D%0 CPFCNPJ: ${CPF};%0D%0A%0D%0 Dt. Nascimento: ${nascimento};%0D%0A%0D%0 Celular: ${celular};%0D%0A%0D%0 E-mail: ${email};%0D%0A%0D%0 Autorizo o cadastro dos meus dados para que um consultor da Nossagente entre em contato comigo.`
+    let corpo = `Nome Completo: ${nome};%0D%0A%0D CPFCNPJ: ${CPF};%0D%0A%0D Dt. Nascimento: ${nascimento};%0D%0A%0D Celular: ${celular};%0D%0A%0D E-mail: ${email};%0D%0A%0D%0D Autorizo o cadastro dos meus dados para que um consultor da Nossagente entre em contato comigo.`
     let emailLink = document.getElementById('emailLink');   
     emailLink.href= 'mailto:sac@nossagentecard.com.br?subject=Formulário%20NossaGente&body=' + corpo
     emailLink.click();
