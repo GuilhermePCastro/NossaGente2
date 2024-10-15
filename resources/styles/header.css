@@ -148,17 +148,16 @@ header{
 }
 
 .cont-img-slide{
-    overflow: hidden;
-    height: 100vh !important;
-    width: 100% !important;
+    height: 100% !important;
+    width: 50vw !important;
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: end;
+    align-items: end;
 }
 
 .img-slide{
-    width: 90%;
-    height: 100%;
+    object-fit: contain;
+    height: 100vh;
 }
 
 
