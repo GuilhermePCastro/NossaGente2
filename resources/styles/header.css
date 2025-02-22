@@ -29,7 +29,8 @@ header{
 }
 
 .nav-link:hover{
-    color: #ffffffe1;
+    color: #1CB5E0;
+    background-color: #FFFFFF;
 }
 
 
@@ -48,7 +49,7 @@ header{
 }
 
 .btn-slide:hover{
-    background-color: #000046;
+    background-color: #1CB5E0;
     color: #FFFFFF;
 
 }

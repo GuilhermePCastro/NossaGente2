@@ -1,20 +1,20 @@
 .texto-credito-mao{
-    color: var(--main-color) !important;
-    font-size: 1.25rem;
-    font-weight: 500;
+    color: #393939 !important;
+    font-size: 1.40rem;
+    font-weight: bold;
     line-height: 1.938rem;
-    font-family: "Poppins", sans-serif !important;
+    font-family: "Inter", sans-serif !important;
     text-align: right;
 }
 
 .titulo-credito-mao{
-    font-size: 3.438rem;
+    font-size: 3.100rem;
     font-weight: 800;
     line-height: 4.25rem;
     font-family: "Poppins", sans-serif !important;
     margin-top: 20% !important;
     background: rgb(0,18,27);
-    background: linear-gradient(111deg, rgba(0,18,27,1) 0%, rgba(0,31,33,1) 13%, rgba(0,57,35,1) 31%, rgba(0,69,30,1) 47%, rgba(0,70,39,1) 60%, rgba(0,96,0,1) 74%, rgba(0,136,0,1) 85%);
+    background: linear-gradient(111deg, #000046 0%, #1CB5E0 100%);
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
@@ -23,8 +23,8 @@
 }
 
 .cont-img-credito-mao{
-    height: 100vh !important;
-    width: 80% !important;
+    height: 130vh !important;
+    width: 100% !important;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -42,6 +42,18 @@
 
 .cont-img-credito-mao-mobile{
     display: none;
+}
+
+.btn-credito-mao{
+    padding: 0.7rem 0;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 500;
+    background: linear-gradient(111deg, #000046 0%, #1CB5E0 100%) !important;
 }
 
 
