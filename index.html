@@ -35,7 +35,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-
        
     </head>
     <body>
@@ -44,7 +43,7 @@
             <!-- Menu -->
             <nav class="navbar navbar-expand-xl py-4">
                 <div class="container-fluid">
-                    <div class="cont-logo">
+                    <div class="cont-logo me-5">
                         <a class="navbar-brand" href="#inicio">
                           <img src="resources\images\logoPrincipal.webp" alt="Logo" class="d-inline-block logo ms-4">
                         </a>
@@ -52,28 +51,22 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse " id="navbarNav">
-                        <ul class="navbar-nav mx-auto mb-2 mb-xl-0 ">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#inicio">Página Inicial</a>
+                    <div class="collapse navbar-collapse d-flex me-xl-5" id="navbarNav">
+                        <ul class="navbar-nav  mb-2 mb-xl-0 mx-auto w-100 justify-content-around">
+                            <li class="nav-item w-100">
+                                <a class="nav-link " aria-current="page" href="#inicio">Página Inicial</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#CreditoMao">Quem Somos </a>
+                            <li class="nav-item w-100">
+                                <a class="nav-link" href="#CreditoMao">Quem Somos</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#CuidamosGente">Benefícios</a>
+                            <li class="nav-item w-100">
+                                <a class="nav-link" href="#CuidamosGente">O Cartão</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#cartao">O Cartão</a>
+                            <li class="nav-item w-100">
+                                <a class="nav-link" href="#cartao">Benefícios</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#formulario">Credenciamento</a>
-                            </li>
-                            <li class="nav-item ms-xl-5 ms-0">
-                                <a class="btn btn-fale-gente px-4 text-uppercase" href="tel:08005914114" target="_blank">Fale com a gente!</a>
-                            </li>
-                            <li class="nav-item ms-xl-2 ms-0 mt-xl-0 mt-2">
-                                <a class="btn btn-area-parceiro px-4 text-uppercase" href="https://front.nossagentecard.com.br/AppMenu/Login/ICLogin" target="_blank">área do parceiro</a>
+                            <li class="nav-item w-100">
+                                <a class="nav-link" href="#formulario">Fale com a Gente</a>
                             </li>
                         </ul>
                     </div>
@@ -83,115 +76,50 @@
             <!-- Carrosel  -->
             <section id="carroselPrincipal" class="carousel slide carrosel-tamanho"  data-bs-ride="carousel">
 
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="container slide-cont">
-                        <div class="row">
-                            <div class="col-xl-5 col-12">
-                                <h2 class=" titulo-slide-1">
-                                    <span class="d-block">Cartão</span>
-                                    <span class="d-block">nossagente.</span> 
-                                </h2>
-                                <p class="mt-4 texto-slide-1">
-                                    <span class="d-block">Seja para emergências ou para realizar seus</span>
-                                    <span class="d-block">sonhos, o <span class="fw-bolder">cartão nossagente</span> é perfeito para você! </span>
-                                </p>
-                                <div class="mt-4 cont-img-slide cont-slide-mobile">
-                                    <img alt="slide1" class="img-slide-mobile" src="./resources/images/MOBILE/slide1.webp">
-                                </div>
-                                <a class="btn btn-slide mt-5 text-uppercase px-0 py-2" href="tel:08005914114" target="_blank">
-                                    <div class="container-fluid">
-                                        <div class="row p-0 me-0 justify-content-between">
-                                            <span class="col-10 p-0 ms-2">Saber Mais </span>
-                                            <img class="img-btn-seta col-2 p-0" src="resources/images/btn-seta.webp" alt="btn-seta">
-                                        </div>
-                                    </div>
-                                </a>
+                <div class="container slide-cont">
+                    <div class="row">
+                        <div class="col-xl-5 col-12">
+                            <h2>
+                                <span class="d-block titulo-Slide-cima">Cartão</span>
+                                <span class="d-block titulo-Slide-baixo">Nossagente.</span> 
+                            </h2>
+                            <p class="mt-4 texto-slide-1">
+                                <span class="d-block">Porque todo sonho merece se tornar realidade.</span>
+                                <span class="d-block">Conheça nossos produtos e conquiste o seu!</span>
+                            </p>
+                            <div class="mt-4 cont-img-slide cont-slide-mobile">
+                                <img alt="slide1" class="img-slide-mobile" src="./resources/images/MOBILE/slide1.webp">
                             </div>
-                        <div class="col-xl-7 col-12 ">
-                                <div class="cont-img-slide w-100">
-                                    <img alt="slide1" class="img-slide" src="./resources/images/slide1.webp">
+                            <a class="btn btn-slide mt-3 mb-5 px-0 py-2" href="tel:08005914114" target="_blank">
+                                <span class="">Saber mais</span>   
+                            </a>
+                            <div class="row mt-5">
+                                <div class="col-2">
+                                    <span class="d-block rodape-slide">600<span class="color-rodape">+</span></span>
+                                    <span class="rodape-slide2">Postos de trabalho</span>
                                 </div>
+                                <div class="col-1 linha-vertical-rodape mt-3">
+                                </div>
+                                <div class="col-9">
+                                    <span class="d-block rodape-slide">250 MIL<span class="color-rodape">+</span></span>
+                                    <span class="rodape-slide2">Servidores atingidos</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    <div class="col-xl-7 col-12 ">
+                            <div class="cont-img-slide w-100">
+                                <img alt="slide1" class="img-slide" src="./resources/images/capaHeader2.webp">
                             </div>
                         </div>
                     </div>
-                  </div>
-
-                  <div class="carousel-item">
-                    <div class="container slide-cont">
-                        <div class="row">
-                            <div class="col-xl-5 col-12">
-                                <h2 class=" titulo-slide-1">
-                                    <span class="d-block"></span>Estamos aqui</span>
-                                    <span class="d-block">para ajudar!</span> 
-                                </h2>
-                                <p class="mt-4 texto-slide-1">
-                                    <span class="d-block">Porque cada sonho merece a chance de se tornar realidade. Conheça nossos produtos e descubra como podemos ajudá-lo a conquistar o seu!</span>
-                                </p>
-                                <div class="mt-4 cont-img-slide cont-slide-mobile">
-                                    <img alt="slide2" class="img-slide-mobile" src="./resources/images/MOBILE/slide2.webp" loading="lazy">
-                                </div>
-                                <a class="btn btn-slide mt-4 text-uppercase px-0 py-2" href="tel:08005914114" target="_blank">
-                                    <div class="container-fluid ">
-                                        <div class="row p-0 me-0 justify-content-between">
-                                            <span class="col-10 p-0 ms-2">Saber Mais </span>
-                                            <img class="img-btn-seta col-2 p-0 text-end" src="resources/images/btn-seta.webp" alt="btn-seta">
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-xl-7 col-12 text-end">
-                                <div class="cont-img-slide">
-                                    <img alt="slide2" class="img-slide" src="./resources/images/slide2.webp">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>                    
-                  </div>
-
-                  <div class="carousel-item">
-                    <div class="container slide-cont">
-                        <div class="row">
-                            <div class="col-xl-5 col-12">
-                                <h2 class=" titulo-slide-3">
-                                    CORBAN, venha ser um correspondente bancário Nossagente.
-                                </h2>
-                                <div class="my-4 cont-img-slide cont-slide-mobile">
-                                    <img alt="slide3" class="img-slide-mobile" src="./resources/images/MOBILE/slide3.webp" loading="lazy">
-                                </div>
-                                <a class="btn btn-slide  text-uppercase px-0 py-2 mt-lg-2 mt-5" href="tel:08005914114" target="_blank">
-                                    <div class="container-fluid">
-                                        <div class="row p-0 me-0 justify-content-between">
-                                            <span class="col-10 p-0 ms-2">Fale com a gente </span>
-                                            <img class="img-btn-seta col-2 p-0 text-end" src="resources/images/btn-seta.webp" alt="btn-seta">
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-xl-7 col-12 text-end ">
-                                <div class="cont-img-slide">
-                                    <img alt="slide3" class="img-slide" src="./resources/images/slide3.webp">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>                    
-                  </div>
                 </div>
-
-
-                <button class="carousel-control-next" type="button" data-bs-target="#carroselPrincipal" data-bs-slide="next" >
-                  <span class="carousel-control-next-icon slide-next" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+            
 
             </section>
         </header>
 
         <main>
-
-            <div class="linhaAmarela"></div>
 
             <!-- Crédito na mão -->
             <section id="CreditoMao" class="backgroud1">

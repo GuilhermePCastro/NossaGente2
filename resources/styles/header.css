@@ -1,87 +1,55 @@
 :root {
     --main-color: #006300;
+    --font-color: #DCEEE2;
 }
 
 .logo{
-    width: 218px;
-    height: 53px;
+    width: 224px;
+    height: 35px;
 }
 
 header{
-    background-image: url('./../images/BACKGROUND.webp');
+    background-image: url('./../images/BACKGROUND2.webp');
     background-size: cover;
 }
 
 .nav-link{
     font-size: 0.75rem !important;
-    text-transform: uppercase !important;
-    font-family: "Inter", sans-serif !important;
+    text-align: center;
+    font-family: "Poppins", sans-serif !important;
     font-weight: 800 !important;
     line-height: 1.25rem !important;
     letter-spacing: 0.125rem !important;
-}
-
-.btn-fale-gente{
+    color: var(--font-color);
+    background-color: #00004665;
+    padding: 5px 10px;
+    margin-left: 5%;
+    margin-right: 5%;
     border-radius: 1.563rem;
-    background-color: #fff;
-    border-color: var(--main-color);
-    color: var(--main-color);
-    border-width: 0.125rem;
-    font-family: "Rubik", sans-serif !important;
-    font-weight: 400 !important;
-    line-height: 1.25rem;
-    font-size: 0.75rem;
-    -webkit-border-radius: 1.563rem;
-    -moz-border-radius: 1.563rem;
-    -ms-border-radius: 1.563rem;
-    -o-border-radius: 1.563rem;
-    cursor: pointer;
 }
 
-.btn-fale-gente:hover{
-    background-color: var(--main-color);
-    color: #fff;
-
+.nav-link:hover{
+    color: #ffffffe1;
 }
 
-.btn-area-parceiro{
-    border-radius: 25px;
-    background-color: var(--main-color);
-    color: white;
-    font-family: "Rubik", sans-serif !important;
-    font-weight: 400 !important;
-    line-height: 1.25rem;
-    font-size: 0.75rem;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
-    cursor: pointer;
-}
-
-.btn-area-parceiro:hover{
-    background-color: #049104;
-    color: #fff;
-
-}
 
 .btn-slide{
     border-radius: 25px;
-    background-color: var(--main-color);
-    color: white;
-    font-family: "Rubik", sans-serif !important;
+    background-color: #FFFFFF;
+    color: #000046;
+    font-family: "Poppins", sans-serif !important;
     font-size: 1rem;
-    font-weight: 400 !important;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+    font-weight: Bold !important;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
     width: 60%;
 }
 
 .btn-slide:hover{
-    background-color: #049104;
-    color: #fff;
+    background-color: #000046;
+    color: #FFFFFF;
 
 }
 
@@ -91,55 +59,60 @@ header{
     margin-right: 7%;
 }
 
-.titulo-slide-1{
-    font-size: 3.625rem;
+.titulo-Slide-cima{
+    font-size: 2.300rem;
     font-weight: 800;
     line-height: 4.25rem;
-    font-family: "Inter", sans-serif !important;
-    margin-top: 20% !important;
-    background: rgb(0,18,27);
-    background: linear-gradient(111deg, rgba(0,18,27,1) 0%, rgba(0,31,33,1) 13%, rgba(0,57,35,1) 31%, rgba(0,69,30,1) 47%, rgba(0,70,39,1) 60%, rgba(0,96,0,1) 74%, rgba(0,136,0,1) 85%);
-    background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; 
+    font-family: "Montserrat", sans-serif !important;
+    margin-top: 10% !important;
+    color: var(--font-color);
 }
 
-.titulo-slide-3{
-    font-size: 2.5rem;
+.titulo-Slide-baixo{
+    font-size: 4.625rem;
     font-weight: 800;
-    line-height: 3.125rem;
-    font-family: "Inter", sans-serif !important;
-    margin-top: 20% !important;
-    background: rgb(0,18,27);
-    background: linear-gradient(111deg, rgba(0,18,27,1) 0%, rgba(0,31,33,1) 13%, rgba(0,57,35,1) 31%, rgba(0,69,30,1) 47%, rgba(0,70,39,1) 60%, rgba(0,96,0,1) 74%, rgba(0,136,0,1) 85%);
-    background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; 
+    line-height: 4.25rem;
+    font-family: "Montserrat", sans-serif !important;
+    color: var(--font-color);
 }
 
 .texto-slide-1{
-    color: var(--main-color) !important;
+    color: var(--font-color) !important;
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.375rem;
     font-family: "Montserrat", sans-serif;
+    font-weight: bold;
     
 }
 
-.carrosel-tamanho{
-    flex: 1;
+.rodape-slide{
+    color: var(--font-color) !important;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.375rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 
-.cor-principal{
-    color: var(--main-color) !important;
+.color-rodape{
+    color: #1CB5E0;
 }
 
-.slide-next {
-    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="22" height="38" viewBox="0 0 22 38" fill="none" ><path fill-rule="evenodd" clip-rule="evenodd" d="M1.35853 0.733534C1.91991 0.172155 2.83009 0.172155 3.39147 0.733534L20.6415 17.9835C21.2028 18.5449 21.2028 19.4551 20.6415 20.0165L3.39147 37.2665C2.83009 37.8278 1.91991 37.8278 1.35853 37.2665C0.797155 36.7051 0.797155 35.7949 1.35853 35.2335L17.5921 19L1.35853 2.76647C0.797155 2.20509 0.797155 1.29491 1.35853 0.733534Z" fill="%23006300"/></svg>');
+.rodape-slide2{
+    color: #1CB5E0;
+    font-size: 0.7rem;
+    font-weight: bold;
+    line-height: 0 !important;
+    font-family: "Montserrat", sans-serif;
+}
+
+.linha-vertical-rodape{
+    height: 20px;/*Altura da linha*/
+    border-left: #1CB5E0 1px solid;
+    margin: 0 10px;
+    padding: 0;
+    width: 3px;
 }
 
 .img-btn-seta{
@@ -157,7 +130,7 @@ header{
 
 .img-slide{
     object-fit: contain;
-    height: 100vh;
+    height: 87vh;
 }
 
 
