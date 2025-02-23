@@ -15,7 +15,7 @@ body, html {
 
 main{
     background-image: url('./../images/BACKGROUND.webp') !important;
-    background-size: cover !important; 
+    background-size: contain !important; 
 }
 
 .backgroud1{
@@ -27,9 +27,12 @@ main{
     background-image: url('./../images/BACKGROUND2.webp') !important;
     background-size: cover !important;
 }
+
 .btn-padrao{
     border-radius: 25px;
-    background-color: var(--main-color);
+    background-color: #000046;
+    background: linear-gradient(111deg, #000046 0%, #1CB5E0 100%) !important;
+    border: #000046 solid 0px;
     color: white;
     font-family: "Rubik", sans-serif !important;
     font-size: 1rem;
@@ -45,17 +48,16 @@ main{
 }
 
 .btn-padrao:hover{
-    background-color: #049104;
-    color: #fff;
+    background-color: #FFF !important;
+    background: linear-gradient(111deg, #FFF 0%, #FFF 100%) !important;
+    color: #1CB5E0 !important;
 
 }
 
-
-.linhaAmarela{
-    width: 100%;
-    height: 14px;
-    background: linear-gradient(90deg, #DFDF00 0%, #797900 100%);
+.d-flex{
+    display: flex;
 }
+
 
 
 @media screen and (max-width: 1200px) {

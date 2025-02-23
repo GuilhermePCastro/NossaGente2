@@ -25,7 +25,7 @@
         <link href="resources\styles\cards2.css" rel="stylesheet">
         <link href="resources\styles\cartaoNossagente.css" rel="stylesheet">
         <link href="resources\styles\creditoMao.css" rel="stylesheet">
-        <link href="resources\styles\cuidamosGente.css" rel="stylesheet">
+        <link href="resources\styles\saque.css" rel="stylesheet">
         <link href="resources\styles\ondeEstamos.css" rel="stylesheet">
         <link href="resources\styles\carroselCards2.css" rel="stylesheet">
         <link href="resources\styles\formulario.css" rel="stylesheet">
@@ -124,7 +124,7 @@
         <main>
 
             <!-- Crédito na mão -->
-            <section id="CreditoMao" class="backgroud1">
+            <section id="CreditoMao" class="">
                 <div class="ms-2 container-fluid container-credito-mao">
                     <div class="row">
                         <div class="col-xl-5 col-12  text-xl-start text-center">
@@ -156,146 +156,109 @@
             </section>
 
             <!-- Cards 1 -->
-            <section id="cards1" class="backgroud1 py-5">
-                <h2 class="titulo-cards1 text-center  mx-auto">
+            <section id="cards1" class=" py-5">
+                <h2 class="titulo-cards1 text-center mb-5  mx-auto">
                     <span class="d-block">Alivie o orçamento com</span>
                     <span>um dinheiro que já é seu!</span>
                 </h2>
                 
+                <div class="container-fluid mx-1 mt-5">
+                    
+                    <div class="row justify-content-around">
+
+                        <div class="col-3 card-cont d-flex">
+                            <div class="d-flex justify-content-between">
+                                <span class="text-card1">01/</span>
+                                <img class='iconCard' src="./resources/images/iconCard.webp">
+                            </div>
+                            <div>
+                                <div class="mb-4">
+                                    <span class="d-block text-card2">Taxas</span>
+                                    <span class="d-block text-card2">reduzidas</span>
+                                </div>
+                                <div>
+                                    <span class="text-card3 me-2">Saiba mais</span>
+                                    <img class='setaCard' src="./resources/images/setaCard.webp">
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="col-3 card-cont d-flex">
+                            <div class="d-flex justify-content-between">
+                                <span class="text-card1">02/</span>
+                                <img class='iconCard' src="./resources/images/iconCard.webp">
+                            </div>
+                            <div>
+                                <div class="mb-4">
+                                    <span class="d-block text-card2">Dinheiro na conta</span>
+                                    <span class="d-block text-card2">em até 24 horas</span>
+                                </div>
+                                <div>
+                                    <span class="text-card3 me-2">Saiba mais</span>
+                                    <img class='setaCard' src="./resources/images/setaCard.webp">
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="col-3 card-cont d-flex">
+                            <div class="d-flex justify-content-between">
+                                <span class="text-card1">03/</span>
+                                <img class='iconCard' src="./resources/images/iconCard.webp">
+                            </div>
+                            <div>
+                                <div class="mb-4">
+                                    <span class="d-block text-card2">Simples e sem</span>
+                                    <span class="d-block text-card2">complicações</span>
+                                </div>
+                                <div>
+                                    <span class="text-card3 me-2">Saiba mais</span>
+                                    <img class='setaCard' src="./resources/images/setaCard.webp">
+                                </div>
+                            </div>
+                            
+                        </div>
+                      
+                        
+
+                    </div>
+
+                </div>
 
                 
             </section>
 
            
 
-            <!-- Cuidamos da nossa gente -->
-            <section id="CuidamosGente" class=" backgroud1">
-                <div class="container-fluid container-cuidamos-gente" >
-                    <div class="row ms-xl-5 ">
-                        <div class="col-xl-5 col-12 pb-5">
-                            <h2 class="titulo-cuidamos-gente text-xl-start text-center">
-                               Cuidamos da nossa gente!
+            <!-- Saque -->
+            <section id="Saque" class="py-5">
+                <div class="px-5 mx-5 container-fluid container-saque">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-7 col-12 ps-xl-0 cont-texto-saque">
+                            <h2 class=" titulo-saque">
+                                <span class="d-block text-start">Saque o saldo do seu cartão direto na sua conta!</span>
                             </h2>
-
-                            <div>
-                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#telemedicina" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    <div class="container-fluid ">
-                                        <div class="row p-0 me-0 justify-content-between">
-                                            <span class="col-11 ">telemedicina familiar</span>
-                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.webp" alt="btn-seta">
-                                        </div>
-                                    </div>
+                            <p class="mt-4 texto-saque text-start">
+                                <span class="d-block">Dinheiro na mão? Fácil demais! Agora</span>
+                                <span class="d-block">você pode sacar o saldo do seu cartão</span>
+                                <span class="d-block">direto pra sua conta bancária.</span>
+                            </p>
+                            <p class="mt-4 texto-saque text-start fw-bolder">
+                                <span class="d-block">Sem complicação, só vantagem!</span>
+                            </p>
+                            <div class=" text-start">
+                                <a class="btn btn-padrao btn-saque mt-5 px-0" href="tel:08005914114" target="_blank">
+                                    <span class="col-10 p-0 ms-2 me-0">Saber mais</span>
                                 </a>
-                                <div class="collapse" id="telemedicina">
-                                    <div class="card card-body">
-                                        Cuide da saúde de sua família com consultas médicas online, 24 horas por dia, 7 dias por semana, sem sair de casa. Praticidade e segurança ao alcance de todos!
-                                    </div>
-                                </div>
                             </div>
-
-                            <div>
-                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#descontoConsulta" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    <div class="container-fluid">
-                                        <div class="row p-0 me-0 justify-content-between">
-                                            <span class="col-11 ">Desconto em consultas</span>
-                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.webp" alt="btn-seta">
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="collapse" id="descontoConsulta">
-                                    <div class="card card-body">
-                                        Agende suas consultas com os melhores especialistas por valores acessíveis! Tenha saúde de qualidade com descontos exclusivos em diversas especialidades
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#descontoExame" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    <div class="container-fluid">
-                                        <div class="row p-0 me-0 justify-content-between">
-                                            <span class="col-11 ">desconto em exames</span>
-                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.webp" alt="btn-seta">
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="collapse" id="descontoExame">
-                                    <div class="card card-body">
-                                        Realize seus exames com preços reduzidos em laboratórios credenciados. Facilite o cuidado com sua saúde sem pesar no bolso!
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#descontoFarmacia" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    <div class="container-fluid">
-                                        <div class="row p-0 me-0 justify-content-between">
-                                            <span class="col-11 ">desconto em farmárcias</span>
-                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.webp" alt="btn-seta">
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="collapse" id="descontoFarmacia">
-                                    <div class="card card-body">
-                                        Tenha acesso a medicamentos e produtos de saúde com descontos especiais nas melhores farmácias do país. Economia que faz bem para o seu bolso e sua saúde!
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#assisValidez" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    <div class="container-fluid">
-                                        <div class="row p-0 me-0 justify-content-between">
-                                            <span class="col-11 ">assistência invalidez</span>
-                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.webp" alt="btn-seta">
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="collapse" id="assisValidez">
-                                    <div class="card card-body">
-                                        Segurança e suporte em momentos delicados. Conte com uma assistência completa em caso de invalidez, garantindo tranquilidade para você e sua família.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#assisfuneral" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    <div class="container-fluid">
-                                        <div class="row p-0 me-0 justify-content-between">
-                                            <span class="col-11 ">assistência funeral</span>
-                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.webp" alt="btn-seta">
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="collapse" id="assisfuneral">
-                                    <div class="card card-body">
-                                        Apoio e cuidado quando mais precisa. Nosso serviço de assistência funerária cuida de todos os detalhes, proporcionando conforto para sua família em um momento difícil.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
-                                <a class="btn btn-padrao btn-credito-mao mt-4 text-uppercase px-0 py-2 w-100" data-bs-toggle="collapse" href="#sorteio" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    <div class="container-fluid">
-                                        <div class="row p-0 me-0 justify-content-between">
-                                            <span class="col-11 ">Sorteio 20 mil reais</span>
-                                            <img class="img-btn-seta col-1 p-0 text-end" src="resources/images/btn-mais.webp" alt="btn-seta">
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="collapse" id="sorteio">
-                                    <div class="card card-body">
-                                        Participe do nosso sorteio exclusivo e concorra a R$ 20 mil em prêmios! Uma chance incrível de transformar sua vida com apenas um clique.
-                                    </div>
-                                </div>
-                            </div>
-                            
                         </div>
-                        <div class="col-xl-7 col-12 ">
-                            <div class="cont-img-cuidamos-gente">
-                                <img alt="cuidamosDaNossaGente" class="img-cuidamos-gente " src="./resources/images/cuidamosVoce2.webp">
+                        <div class="col-xl-5 col-12">
+                            <div class="cont-img-saque">
+                                <img alt="saque" class="img-saque" src="./resources/images/saque.webp">
                             </div>
-                            <div class="cont-img-cuidamos-gente-mobile mb-md-3 mb-0">
-                                <img alt="cuidamosDaNossaGente" class="img-cuidamos-gente-mobile " src="./resources/images/MOBILE/beneficios.webp" loading="lazy">
+                            <div class="cont-img-saque-mobile">
+                                <img alt="saque" class="img-saque-mobile" src="./resources/images/MOBILE/creditomao.webp" loading="lazy">
                             </div>
                         </div>
                     </div>
