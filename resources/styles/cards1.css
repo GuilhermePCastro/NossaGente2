@@ -1,25 +1,17 @@
-.cards1-background{
-    background-image: url('./../images/BACKGROUND2.webp') !important;
-    background-size: cover !important;
-    padding-bottom: 1%;
-}
-
-
 .titulo-cards1{
-    color: var(--second-color);
-    font-weight: 800;
-    font-size: 1.438rem;
-    line-height: 1.75rem;
-    letter-spacing: -0.063rem;
-    font-family: "Montserrat", sans-serif;
+    font-size: 2.3rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    font-family: "Poppins", sans-serif !important;
+    background: #000046;
+    background: linear-gradient(100deg, #000046 0%, #1CB5E0 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent; 
 }
 
-.subtitulo-cards1{
-    color: var(--second-color);
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.3752rem;
-}
 
 .text-cards1{
     font-family: "Montserrat", sans-serif;
