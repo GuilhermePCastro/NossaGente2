@@ -1,0 +1,125 @@
+.texto-cuidamosFamilia{
+    color: #393939 !important;
+    font-size: 1.3rem;
+    line-height: 1.938rem;
+    font-family: "Inter", sans-serif !important;
+    text-align: right;
+}
+
+.titulo-cuidamosFamilia{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 4.25rem;
+    font-family: "Poppins", sans-serif !important;
+    margin-top: 20% !important;
+    background: rgb(0,18,27);
+    background: linear-gradient(111deg, #000046 0%, #1CB5E0 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent; 
+}
+
+.cont-img-cuidamosFamilia{
+    height: 120vh !important;
+    width: 100% !important;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.img-cuidamosFamilia{
+    object-fit: contain;
+    height: 100%;
+}
+
+.container-cuidamosFamilia{
+    --bs-gutter-x: 0 !important;
+    padding-right: 5%;
+}
+
+.cont-img-cuidamosFamilia-mobile{
+    display: none;
+}
+
+.btn-cuidamosFamilia{
+    padding: 0.7rem 0;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 500 !important;
+    background-color: #000046;
+    background: linear-gradient(111deg, #000046 0%, #1CB5E0 100%) !important;
+    border: #000046 solid 0px;
+}
+
+.btn-cuidamosFamilia:hover{
+    background-color: #FFF !important;
+    background: linear-gradient(111deg, #FFF 0%, #FFF 100%) !important;
+    color: #1CB5E0 !important;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+    /* Crédito na mão */
+    .titulo-cuidamosFamilia{
+        text-align: right !important;
+    }
+
+    .btn-cuidamosFamilia{
+        width: 60%;
+    }
+
+    .cont-img-cuidamosFamilia{
+        height: 100% !important;
+        width: 100% !important;
+        padding-right: 0 !important;
+        text-align: center !important;
+        display: none;
+    }
+
+    .img-cuidamosFamilia{
+        width: 100%;
+        height: 100%;
+    }
+  
+    .cont-texto-cuidamosFamilia{
+        padding: 0 5%;
+        padding-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo-cuidamosFamilia{
+        margin-top: 0 !important;
+        font-size: 2.813rem;
+        
+    }
+
+    .container-cuidamosFamilia{
+        --bs-gutter-x: 0 !important;
+        padding-right: 0;
+    }
+    
+    .cont-img-cuidamosFamilia-mobile{
+        display: block;
+        overflow: hidden;
+        height: 50vh;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .img-cuidamosFamilia-mobile{
+        object-fit: contain;
+        width: 100%;
+        height: 80%;
+    }
+
+    
+
+}

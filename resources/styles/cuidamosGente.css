@@ -1,0 +1,62 @@
+.titulo-cuidamosGente{
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif !important;
+    background: rgb(0,18,27);
+    background: linear-gradient(111deg, #000046 0%, #1CB5E0 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent; 
+}
+
+.subtitulo-cuidamosGente{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 3rem;
+    font-family: "Inter", sans-serif !important;
+   color: #393939;
+}
+
+.backgroud-cuidamosgente{
+    background-image: url('./../images/cuidamosGente.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 860px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card-cuidamosgente{
+    background-image: url('./../images/fundo-card-cuidamos.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 10px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.img-card-cuidamos{
+    width: 2.8rem;
+}
+
+.text-card-cuidamos{
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    
+}
