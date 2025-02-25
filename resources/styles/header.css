@@ -31,6 +31,8 @@ header{
 .nav-link:hover{
     color: #1CB5E0;
     background-color: #FFFFFF;
+    opacity: 100% !important;
+   
 }
 
 
@@ -91,7 +93,7 @@ header{
     color: var(--font-color) !important;
     font-size: 1.4rem;
     font-weight: bold;
-    line-height: 1.375rem;
+    line-height: 2rem;
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
 }

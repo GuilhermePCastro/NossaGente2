@@ -22,11 +22,12 @@
 }
 
 .cont-img-cuidamosFamilia{
-    height: 120vh !important;
+    height: 110vh !important;
     width: 100% !important;
     display: flex;
     justify-content: start;
     align-items: start;
+    margin-top: 4rem;
 }
 
 .img-cuidamosFamilia{
