@@ -28,7 +28,7 @@
     line-height: 3.125rem;
     font-family: "Poppins", sans-serif;
     background: rgb(0,18,27);
-    background: linear-gradient(111deg, rgba(0,18,27,1) 0%, rgba(0,31,33,1) 13%, rgba(0,57,35,1) 31%, rgba(0,69,30,1) 47%, rgba(0,70,39,1) 60%, rgba(0,96,0,1) 74%, rgba(0,136,0,1) 85%);
+    background: linear-gradient(111deg, #000046 0%, #1CB5E0 100%);
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
@@ -38,7 +38,9 @@
 
 .btn-formulario{
     border-radius: 5px;
-    background-color: var(--main-color);
+    background-color: #000046;
+    background: linear-gradient(111deg, #000046 0%, #1CB5E0 100%) !important;
+    border: #000046 solid 0px;
     color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 500 !important;
@@ -52,38 +54,11 @@
 }
 
 .btn-formulario:hover{
-    background-color: #049104;
-    color: #fff;
-
+    background-color: #FFF !important;
+    background: linear-gradient(111deg, #FFF 0%, #FFF 100%) !important;
+    color: #1CB5E0 !important;
 }
 
-.cont-img-formulario{
-    height: 50vh !important;
-  
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-}
-
-.img-formulario{
-    object-fit: contain;
-    height: 100%;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
- 
-}
-
-.container-formulario{
-    --bs-gutter-x: 0 !important;
-}
 
 .texto-formulario1{
     font-family: "Montserrat", sans-serif;
@@ -144,9 +119,9 @@
 
 .btn-formulario-envio{
     border-radius: 5px;
-    background-color: var(--second-color) !important;
-    color: var(--main-color) !important;
-    border-color: var(--main-color) !important;
+    background-color: #fff !important;
+    color: #1CB5E0 !important;
+    border-color: #1CB5E0 !important;
     border-width: 2px;
     border-style: solid;
     font-family: "Poppins", sans-serif;
@@ -161,7 +136,8 @@
 }
 
 .btn-formulario-envio:hover{
-    background-color:  #ffff05 !important;
+    background-color:  #1CB5E0 !important;
+    color: #fff !important;
 }
 
 .cont-img-formulario-mobile{

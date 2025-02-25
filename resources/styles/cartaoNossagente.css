@@ -1,11 +1,20 @@
-.titulo-cartao-nossagente{
-    font-size: 3.438rem;
-    font-weight: 900;
-    line-height: 3.563rem;
-    font-family: "Montserrat", sans-serif;
-    margin-top: 10% !important;
+.texto-cartao{
+    color: #393939 !important;
+    font-size: 1.40rem;
+    line-height: 1.938rem;
+    font-family: "Inter", sans-serif !important;
+    text-align: left;
+}
+
+
+.titulo-cartao{
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 4.25rem;
+    font-family: "Poppins", sans-serif !important;
+    margin-top: 0% !important;
     background: rgb(0,18,27);
-    background: linear-gradient(111deg, rgba(0,18,27,1) 0%, rgba(0,31,33,1) 13%, rgba(0,57,35,1) 31%, rgba(0,69,30,1) 47%, rgba(0,70,39,1) 60%, rgba(0,96,0,1) 74%, rgba(0,136,0,1) 85%);
+    background: linear-gradient(111deg, #000046 0%, #1CB5E0 100%);
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
@@ -13,77 +22,92 @@
     -webkit-text-fill-color: transparent; 
 }
 
-.texto-cartao-nossagente{
-    color: var(--main-color) !important;
-    font-size: 1.125rem;
-    font-weight: 500;
-    line-height: 2.063rem;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-}
-
-.cont-img-cartao-nossagente{
-    height: 100vh !important;
+.cont-img-cartao{
+    height: 80vh !important;
     width: 100% !important;
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: end;
+    align-items: end;
+    margin-top: 0rem !important;
 }
 
-.img-cartao-nossagente{
-    object-fit: contain;
+.img-cartao{
+    object-fit: cover;
     height: 100%;
 }
 
-.container-cartao-nossagente{
+.container-cartao{
     --bs-gutter-x: 0 !important;
-    padding-right: 2%;
 }
 
-.logo-cartao-nossagente{
-    margin-top: 15%;
-
-}
-
-.cont-img-cartao-nossagente-mobile{
+.cont-img-cartao-mobile{
     display: none;
 }
 
-@media screen and (min-width: 996px) and (max-width: 1200px) {
+.btn-cartao{
+    padding: 0.7rem 0;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 500 !important;
+    background-color: #000046;
+    background: linear-gradient(111deg, #000046 0%, #1CB5E0 100%) !important;
+    border: #000046 solid 0px;
+}
+
+.btn-cartao:hover{
+    background-color: #FFF !important;
+    background: linear-gradient(111deg, #FFF 0%, #FFF 100%) !important;
+    color: #1CB5E0 !important;
+}
+
+
+@media screen and (max-width: 1200px) {
     
-    .cont-img-cartao-nossagente{
+    /* Crédito na mão */
+    .titulo-cartao{
+        text-align: start !important;
+    }
+
+    .btn-cartao{
+        width: 60%;
+    }
+
+    .cont-img-cartao{
+        height: 100% !important;
         width: 100% !important;
         padding-right: 0 !important;
         text-align: center !important;
         display: none;
     }
-    
-    .img-cartao-nossagente{
-        width: 100%;
-        height: 100%;
-        display: none;
-    }
 
-    .cont-img-cartao-nossagente-mobile{
-        display: block;
-        overflow: hidden;
-        height: 50vh;
-        width: 100%;
-    }
-
-    .img-cartao-nossagente-mobile{
-        object-fit: contain;
+    .img-cartao{
         width: 100%;
         height: 100%;
     }
-    
-    
+  
+    .cont-texto-cartao{
+        padding: 0 5%;
+        padding-bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-}
+    .titulo-cartao{
+        margin-top: 0 !important;
+        font-size: 2.813rem;
+        
+    }
 
-@media screen and (max-width: 996px) {
+    .container-cartao{
+        --bs-gutter-x: 0 !important;
+        padding-right: 0;
+    }
     
-    .cont-img-cartao-nossagente-mobile{
+    .cont-img-cartao-mobile{
         display: block;
         overflow: hidden;
         height: 50vh;
@@ -91,36 +115,12 @@
         margin-top: 5%;
     }
 
-    .img-cartao-nossagente-mobile{
+    .img-cartao-mobile{
         object-fit: contain;
         width: 100%;
-        height: 100%;
+        height: 80%;
     }
 
     
-    .cont-img-cartao-nossagente{
-        overflow: hidden;
-        height: 70vh !important;
-        width: 100vw !important;
-        padding-right: 0 !important;
-        text-align: center !important;
-        display: none;
-    }
-    
-    .img-cartao-nossagente{
-        width: 100%;
-        height: 100%;
-    }
-    
-    .container-cartao-nossagente{
-       
-    }
-
-    .titulo-cartao-nossagente{
-        margin-top: 5% !important;
-        font-size: 2.813rem;
-
-    }
 
 }
-

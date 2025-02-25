@@ -1,31 +1,27 @@
 .titulo-onde-estamos{
-    font-size: 4.063rem;
+    font-size: 3.500rem;
     font-weight: 900;
     line-height: 4.188rem;
     font-family: "Montserrat", sans-serif;
     margin-top: 10% !important;
     background: rgb(0,18,27);
-    background: linear-gradient(111deg, rgba(0,18,27,1) 0%, rgba(0,31,33,1) 13%, rgba(0,57,35,1) 31%, rgba(0,69,30,1) 47%, rgba(0,70,39,1) 60%, rgba(0,96,0,1) 74%, rgba(0,136,0,1) 85%);
+    background: linear-gradient(111deg, #000046 0%, #1CB5E0 100%);
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent; 
+    text-align: end;
 }
 
 .subtitulo-onde-estamos{
-    font-size: 1.875rem;
-    font-weight: 800;
+    font-size: 1.500rem;
+    font-weight: 500;
     line-height: 1.75rem;
     font-family: "Montserrat", sans-serif;
     margin-top: 10% !important;
-    background: rgb(0,18,27);
-    background: linear-gradient(111deg, rgba(0,18,27,1) 0%, rgba(0,31,33,1) 13%, rgba(0,57,35,1) 31%, rgba(0,69,30,1) 47%, rgba(0,70,39,1) 60%, rgba(0,96,0,1) 74%, rgba(0,136,0,1) 85%);
-    background-size: cover;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent; 
+    color: #333333;
+
 }
 
 .cont-img-onde-estamos{
@@ -41,6 +37,14 @@
 
 .cont-onde-estamos-mobile{
     display: none;
+}
+
+.cont-text-mapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-top: 6rem;
 }
 @media screen and (max-width: 1024px) {
     

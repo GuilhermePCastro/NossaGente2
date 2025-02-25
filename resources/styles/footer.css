@@ -9,7 +9,7 @@ footer{
 }
 
 .titulo-lista{
-    color: var(--main-color) !important;
+    color: #000046 !important;
     font-size: 1.125rem;
     font-weight: 900;
     line-height: 1.375rem;
@@ -32,9 +32,29 @@ footer{
 
 }
 
+.link-footer:hover{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: #4b4b4b;
+
+}
+
 .assinatura{
     font-size: 0.75rem;
     color:#a1a1a1
+}
+
+.img-footer{
+    width: 210px !important;
+    height: 50px !important;
+}
+
+.icon-rodape{
+    cursor: pointer;
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 1024px) {

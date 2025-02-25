@@ -16,6 +16,7 @@ body, html {
 main{
     background-image: url('./../images/BACKGROUND.webp') !important;
     background-size: contain !important; 
+    background-position: center;
 }
 
 .backgroud1{
