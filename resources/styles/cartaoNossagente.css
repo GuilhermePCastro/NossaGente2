@@ -73,11 +73,11 @@
     }
 
     .btn-cartao{
-        width: 60%;
+        width: 80%;
     }
 
     .cont-img-cartao{
-        height: 100% !important;
+        height: 80% !important;
         width: 100% !important;
         padding-right: 0 !important;
         text-align: center !important;
@@ -110,7 +110,7 @@
     .cont-img-cartao-mobile{
         display: block;
         overflow: hidden;
-        height: 50vh;
+        height: 40vh;
         width: 100%;
         margin-top: 5%;
     }

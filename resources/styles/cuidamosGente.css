@@ -84,7 +84,7 @@
         justify-content: start;
         background-image: none;
         min-height: 0 !important;
-        width: 0 !important;
+        width: 100% !important;
         margin: 0 !important;
         margin-left: 2%;
     }
@@ -105,6 +105,23 @@
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-}
+    }
+
+    .text-card-cuidamos{
+        font-size: 0.9rem;
+        
+    }
+
+    .img-card-cuidamos{
+        width: 2.1rem;
+    }
+    
+    .card-cuidamosgente{
+        min-width: 45vw;
+    }
+
+    .align-itens-card{
+        justify-content: space-between;
+    }
 
 }
