@@ -62,20 +62,11 @@ main{
 
 
 @media screen and (max-width: 1200px) {
-    
-    main{
-        margin-top: 12% ;
-    }
-
 
 }
 
 @media screen and (max-width: 550px) {
     
-    main{
-        margin-top: 18% ;
-    }
-
 
 }
 

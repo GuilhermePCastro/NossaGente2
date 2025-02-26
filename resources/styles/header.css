@@ -47,7 +47,7 @@ header{
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    width: 60%;
+    width: 50%;
 }
 
 .btn-slide:hover{
@@ -145,26 +145,25 @@ header{
     opacity: 60%;
 }
 
+.color-white{
+    background-color: #fff !important;
+}
+
 @media screen and (max-width: 1200px) {
 
-    .carrosel-tamanho{
-        height: 95vh;
+    .titulo-Slide-cima{
+        font-size: 2.8rem;
+        margin: auto;
+    }
+    
+    .titulo-Slide-baixo{
+        font-size: 3.5rem;
+        margin: auto;
     }
 
     .nav-item{
         margin-left: 0;
         margin-right: 0;
-    }
-
-    .btn-slide{
-        width: 98%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 5%;
-
-        span {
-            margin-left: 7% !important;
-        }
     }
 
     .slide-cont{
@@ -188,13 +187,12 @@ header{
         object-fit: contain;
         width: 100%;
         height: 100%;
-    }
-
-    .titulo-slide-1{
-        margin-top: 5% !important;
-        font-size: 3.125rem;
- 
-    }
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
 
     .cont-logo{
         margin-left: auto !important;
@@ -202,10 +200,28 @@ header{
     }
 
 
-    
-    .titulo-slide-3{
-        font-size: 2.188rem !important;
+    .nav-link{
+        border-radius: 0rem;
+        -webkit-border-radius: 0rem;
+        -moz-border-radius: 0rem;
+        -ms-border-radius: 0rem;
+        -o-border-radius: 0rem;
+        margin-top: 1%;
+    }
+
+    .btn-slide{
+        width: 90%;
         margin-top: 5% !important;
+        margin-left: 4% !important;
+        margin-right: auto !important;
+    }
+
+    .rodape-slide2{
+        color: #1CB5E0;
+        font-size: 0.7rem;
+        font-weight: bold;
+        line-height: 0 !important;
+        font-family: "Montserrat", sans-serif;
     }
 
     

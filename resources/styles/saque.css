@@ -68,11 +68,11 @@
     
     /* Crédito na mão */
     .titulo-saque{
-        text-align: start !important;
+        text-align: center !important;
     }
 
     .btn-saque{
-        width: 60%;
+        width: 80%;
     }
 
     .cont-img-saque{
@@ -89,7 +89,6 @@
     }
   
     .cont-texto-saque{
-        padding: 0 5%;
         padding-bottom: 5%;
         margin-left: auto;
         margin-right: auto;
@@ -98,6 +97,7 @@
     .titulo-saque{
         margin-top: 0 !important;
         font-size: 2.813rem;
+        text-align: center !important;
         
     }
 
@@ -109,9 +109,7 @@
     .cont-img-saque-mobile{
         display: block;
         overflow: hidden;
-        height: 50vh;
-        width: 100%;
-        margin-top: 5%;
+        width: 80%;
     }
 
     .img-saque-mobile{

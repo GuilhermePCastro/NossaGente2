@@ -72,8 +72,14 @@
         text-align: right !important;
     }
 
+    .texto-cuidamosFamilia{
+        text-align: center;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+
     .btn-cuidamosFamilia{
-        width: 60%;
+        width: 80%;
     }
 
     .cont-img-cuidamosFamilia{
@@ -90,8 +96,8 @@
     }
   
     .cont-texto-cuidamosFamilia{
-        padding: 0 5%;
-        padding-bottom: 5%;
+        padding: 0 0%;
+        padding-bottom: 3%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -110,8 +116,7 @@
     .cont-img-cuidamosFamilia-mobile{
         display: block;
         overflow: hidden;
-        height: 50vh;
-        width: 100%;
+        width: 80%;
         margin-top: 5%;
     }
 
@@ -119,6 +124,7 @@
         object-fit: contain;
         width: 100%;
         height: 80%;
+        display: inline-block;
     }
 
     
