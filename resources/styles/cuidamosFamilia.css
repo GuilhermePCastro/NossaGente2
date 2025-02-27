@@ -80,10 +80,13 @@
         text-align: center;
         margin-right: 8%;
         margin-left: 8%;
+        font-size: 1.60rem;
     }
 
     .btn-cuidamosFamilia{
         width: 80%;
+        font-size: 1.40rem;
+        margin-bottom: 10% !important;
     }
 
     .cont-img-cuidamosFamilia{

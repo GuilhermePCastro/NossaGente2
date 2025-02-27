@@ -67,7 +67,51 @@
     height: 6%;
 }
 
-@media screen and (max-width: 1200px) {
+@media only  screen and (max-width: 1200px) and (min-width: 561px) {
+
+
+    /* Cards1 */
+    .setaCard{
+        margin-left:0; 
+        width: 10%;
+        height: 10%;
+    }
+
+    .titulo-cards1{
+        font-size: 2.0rem;
+        margin-bottom: 2.5rem !important;
+        margin-top: 3rem !important;
+    }
+
+    .card-cont{
+        padding: 4% 4%;
+        min-height: 30vh !important;
+    }
+
+    .text-card1{
+        font-size: 1rem;
+    }
+    
+    .text-card2{
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+    
+    .text-card3{
+        font-size: 1rem;
+        cursor: pointer; 
+    }
+
+    .iconCard{
+    
+        height: 80%;
+        text-align: end;
+    }
+
+    
+}
+
+@media only screen and (max-width: 560px) {
 
 
     /* Cards1 */

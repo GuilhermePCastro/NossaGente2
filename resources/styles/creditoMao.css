@@ -73,6 +73,7 @@
 
     .btn-credito-mao{
         width: 80%;
+        font-size: 1.4rem;
     }
 
     .cont-img-credito-mao{
@@ -121,6 +122,10 @@
         height: 100%;
     }
 
+    .texto-credito-mao{
+        font-size: 2rem;
+    }
+    
     
 
 }
