@@ -65,7 +65,78 @@
 }
 
 
-@media screen and (max-width: 1200px) {
+@media only  screen and (max-width: 1200px) and (min-width: 561px) {
+    
+    /* Crédito na mão */
+    .titulo-cuidamosFamilia{
+        text-align: right !important;
+        font-size: 2rem !important;
+        padding-left: 5%;
+        padding-right: 8%;
+        line-height: 2rem;
+    }
+
+    .texto-cuidamosFamilia{
+        text-align: center;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+
+    .btn-cuidamosFamilia{
+        width: 80%;
+    }
+
+    .cont-img-cuidamosFamilia{
+        height: 100% !important;
+        width: 100% !important;
+        padding-right: 0 !important;
+        text-align: center !important;
+        display: none;
+    }
+
+    .img-cuidamosFamilia{
+        width: 100%;
+        height: 100%;
+    }
+  
+    .cont-texto-cuidamosFamilia{
+        padding: 0 0%;
+        padding-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo-cuidamosFamilia{
+        margin-top: 0 !important;
+        font-size: 2.813rem;
+        
+    }
+
+    .container-cuidamosFamilia{
+        --bs-gutter-x: 0 !important;
+        padding-right: 0;
+    }
+    
+    .cont-img-cuidamosFamilia-mobile{
+        display: block;
+        overflow: hidden;
+        width: 80%;
+        height: 55vh;
+        margin-top: 5%;
+    }
+
+    .img-cuidamosFamilia-mobile{
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 560px) {
     
     /* Crédito na mão */
     .titulo-cuidamosFamilia{
@@ -127,7 +198,7 @@
     .img-cuidamosFamilia-mobile{
         object-fit: contain;
         width: 100%;
-        height: 80%;
+        height: 100%;
         display: inline-block;
     }
 
