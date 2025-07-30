@@ -1,0 +1,41 @@
+/* Remove a borda do conteúdo do modal para um visual mais limpo com a imagem */
+#modalImagem .modal-content {
+  border: none;
+  background-color: transparent;
+}
+
+/* Centraliza o botão de fechar caso o cabeçalho seja removido */
+#modalImagem .modal-header {
+  border-bottom: none; /* Remove a linha do cabeçalho */
+}
+
+/* Estilo para a imagem preencher o corpo do modal */
+#modalImagem .modal-body {
+  padding: 0;
+}
+
+#modalImagem .img-fluid-modal {
+    border-radius: 0.3rem; /* Adiciona bordas arredondadas à imagem */
+}
+
+#modalImagem .modal-body {
+    display: flex; /* Novo: para centralizar verticalmente */
+    justify-content: center; /* Novo: para centralizar horizontalmente */
+    align-items: center; /* Novo: para centralizar verticalmente */
+}
+
+#modalImagem .modal-body img {
+    width: 65%;
+    height: 100%;
+}
+
+@media only  screen and (max-width: 1200px) {
+    
+    #modalImagem .modal-body img {
+        width: 80%;
+        height: 100%;
+    }
+
+    
+
+}

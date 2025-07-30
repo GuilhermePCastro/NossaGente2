@@ -1,7 +1,17 @@
+//Modal
+window.addEventListener('load', function() {
+  var myModal = new bootstrap.Modal(document.getElementById('modalImagem'), {
+    keyboard: false
+  });
+  myModal.show();
+});
+
+//Formulario
 const form = document.getElementById('formContato')
 form.addEventListener('submit', e => {
     e.preventDefault()
 })
+
 
 const tel = document.getElementById('celular') // Seletor do campo de telefone
 
